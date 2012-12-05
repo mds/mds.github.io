@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>The Gently Mad</title>
+ <link href="http://www.thegentlymad.com/atom.xml" rel="self"/>
+ <link href="http://www.thegentlymad.com/"/>
+ <updated>2012-12-05T15:34:26-05:00</updated>
+ <id>http://www.thegentlymad.com/</id>
+ <author>
+   <name>Adam Clark</name>
+   <email>avclark@gmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Is That Really Necessary</title>
+   <link href="http://www.thegentlymad.com/is-that-really-necessary"/>
+   <updated>2012-11-30T00:00:00-05:00</updated>
+   <id>http://www.thegentlymad.com.com/is-that-really-necessary</id>
+   <content type="html">&lt;p&gt;The thought hit me as I dipped my head into a sink full of water in my bathroom.&lt;/p&gt;
+
+&lt;p&gt;I had a towel in my hand to catch the cold drips once I was finished. As the crown of my head breached the water I quickly wrapped the dry towel around my soaked cranium to perform the usual shakedown.&lt;/p&gt;
+
+&lt;p&gt;You see, unless I've been working out, running, etc., I shower about 3 times per week. It's not that I'm against showering. I do like being clean but I don't always &lt;em&gt;need&lt;/em&gt; a shower everyday. The only thing I miss from the shower is a wet head, which of course sets the stage for styling of the hair. If I don't style &lt;sup&gt;&lt;a href=&quot;#footnotes&quot; class=&quot;fn&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; my hair can get all puffy like [Bob Ross(http://cdn.stripersonline.com/1/13/1000x1000px-LL-1308e9f7_bob-ross.jpeg). Not that there's anything wrong with that.&lt;/p&gt;
+
+&lt;p&gt;I've found that this alternative method is a quick and easy way to accomplish what I need. It effectively removes bed-head and gives me a quick wake-up. This is all I need in between the days of showering.&lt;/p&gt;
+
+&lt;p&gt;I thought for a moment, &quot;What else am I doing that isn't necessary?&quot; or that could be replaced with a quicker and easier alternative.&lt;/p&gt;
+
+&lt;h2&gt;Stretching the Metaphor&lt;/h2&gt;
+
+&lt;p&gt;This same thinking can be applied to design, development, and user-experience. Does that page &lt;em&gt;need&lt;/em&gt; to have the full navigation on it? Does your new app &lt;em&gt;have&lt;/em&gt; to have a Facebook-esque slider menu? Do you really &lt;em&gt;have&lt;/em&gt; to include images in your email blasts or could a text only format work? Do those buttons really &lt;em&gt;need&lt;/em&gt; gradients, inner shadows, drop shadows, and a stroke?&lt;/p&gt;
+
+&lt;p&gt;Sometimes the answer is yes, but I challenge you &lt;em&gt;(and myself)&lt;/em&gt; to think, &quot;Is that really necessary, right here, right now?&quot;&lt;/p&gt;
+
+&lt;div id=&quot;footnotes&quot; class=&quot;footnotes&quot;&gt;
+    &lt;ol&gt;
+    &lt;li&gt;&lt;strong&gt;1&lt;/strong&gt; My current favorite products are &lt;a href=&quot;http://www.bumbleandbumble.com/product/75/217/Products/Styling/Waxes/sumotech/index.tmpl&quot;&gt;Sumotech&lt;/a&gt; and &lt;a href=&quot;http://www.amazon.com/LOreal-Homme-Mat-Sculpting-Pomade/dp/B003NMMVJ0&quot;&gt;L'Oreal Homme Mat&lt;/a&gt;.&lt;/li&gt;
+    &lt;/ol&gt;
+&lt;/div&gt;
+
+</content>
+ </entry>
+ 
+ 
+</feed>
