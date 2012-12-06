@@ -4,6 +4,6 @@ main_title:  "Matt D. Smith"
 description: "A description about my blog homepage."
 production_url: mattdsmith.com
 markdown: rdiscount
-permalink: /:title
+permalink: /:year/:month/:day/:title
 pygments: true
 rdiscount extensions: [smart]
