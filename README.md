@@ -1,4 +1,2 @@
-mattdsmith.github.com
+mds.github.com
 =====================
-
-mattdsmith.com
