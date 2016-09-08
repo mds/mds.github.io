@@ -14,6 +14,9 @@ main {
   max-width: 44rem;
   margin: auto; }
 
+section {
+  clear: both; }
+
 body {
   display: flex;
   flex-direction: column;
@@ -22,7 +25,7 @@ body {
   line-height: 1.5;
   -webkit-text-size-adjust: 100%;
   color: #222;
-  min-height: 100vh;
+  font: EMprint-regular;
   -webkit-transition: all 0.25s ease-out;
   -moz-transition: all 0.25s ease-out;
   -o-transition: all 0.25s ease-out;
@@ -134,9 +137,10 @@ h1 {
   text-transform: uppercase; }
 
 h2 {
-  font-size: 1.375em;
-  padding: 2rem 0 1rem;
-  margin-bottom: 1rem; }
+  font-size: 0.875em;
+  padding-top: 5rem;
+  margin-bottom: 1rem;
+  letter-spacing: 1px; }
 
 h3 {
   font-size: 1.25em;
@@ -158,6 +162,9 @@ a {
 
 ol, ul {
   list-style: none; }
+
+ul {
+  margin-bottom: 2rem; }
 
 dl {
   overflow: hidden;
@@ -259,12 +266,23 @@ em {
   font-family: "ff-basic-gothic-sc-web-pro";
   text-transform: lowercase; }
 
-.icon-grid {
-  width: 7rem;
-  height: 7rem;
+.icon-grid-16 {
+  width: 16px;
+  height: 16px;
   float: left;
   align-items: center;
   justify-content: center;
-  border: 1px solid #ddd;
-  padding: 1rem;
-  margin: 0.5rem; }
+  padding: 0;
+  margin: 1rem; }
+
+.icon-grid-24 {
+  width: 24px;
+  height: 24px;
+  float: left;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 1rem; }
+
+.svg-color {
+  fill: red; }
