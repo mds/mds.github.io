@@ -1,0 +1,108 @@
+
+// Input placeholders
+::-webkit-input-placeholder  // Chrome/Opera/Safari
+  color: $color-dark
+
+::-moz-placeholder  
+  color: $color-dark
+
+\:-ms-input-placeholder  
+  color: $color-dark
+
+\:-moz-placeholder  
+  color: $color-dark
+
+// Fieldset
+fieldset 
+  padding: 0
+  border: 0
+
+// Legend
+legend 
+  margin-bottom: 1rem
+  color: $color-dark
+
+// Label
+label 
+  display: block
+  margin: 0
+  color: $color-dark
+  font-size: 1em
+
+// Form element font size reset
+button, input, select, textarea 
+  margin: 0
+  font-family: inherit
+  font-size: 100%
+
+
+// Input/Textarea base styles
+input, textarea 
+  width: 100%
+  padding: 0.7rem
+  border: 1px solid $color-dark
+  box-shadow: inset 0 2px 0 $color-dark
+  font-size: 1em
+  font-weight: 400
+
+  &:hover 
+    border-color: $color-dark
+
+  &:focus 
+    outline: 1px solid $color-dark
+    border-color: $color-dark
+
+// Text Area
+textarea 
+  display: block
+  min-height: 4em
+
+// Reset -webkit-appearance
+input[type=text],
+input[type=search],
+input[type=url],
+input[type=number],
+textarea 
+  -webkit-appearance: none
+  border-radius: 0
+
+// Button and submit inputs reset
+button, input[type=submit] 
+  cursor: pointer
+  width: auto
+
+// Checkbox and radio
+input[type=checkbox],
+input[type=radio] 
+  width: auto
+  margin-right: 0.3rem
+  box-shadow: none
+
+// Data List
+input[list] 
+  position: relative
+
+// File Input
+input[type=file] 
+  line-height: 1
+
+// Select
+select 
+  display: block
+  width: 100%
+  height: 2.75rem
+  border: 1px solid $color-dark
+
+  &:focus 
+    outline: 1px solid $color-dark
+    border-color: $color-dark
+
+// Multi-select
+select[multiple] 
+  height: auto
+
+// Seach Reset
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-decoration 
+  -webkit-appearance: none
+

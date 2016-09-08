@@ -1,0 +1,27 @@
+$small-width: 480px
+$medium-width: 768px
+$large-width: 1024px
+$xlarge-width: 1366px
+
+=breakpoint-small 
+  @media (min-width: #{$small-width})
+    @content
+
+=breakpoint-medium 
+  @media (min-width: #{$medium-width})
+    @content
+
+=breakpoint-large
+  @media (min-width: #{$large-width})
+    @content
+
+=breakpoint-xlarge
+  @media (min-width: #{$xlarge-width})
+    @content
+
+=easeall
+  -webkit-transition: all .25s ease-out
+  -moz-transition: all .25s ease-out
+  -o-transition: all .25s ease-out
+  transition: all .25s ease-out
+
