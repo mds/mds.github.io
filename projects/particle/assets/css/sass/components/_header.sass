@@ -1,0 +1,55 @@
+header
+  box-shadow: 0 1px 0 0 $color-medium-grey
+  background-color: $color-background
+
+header .mds-logo
+  max-width: 55px
+  width: 100%
+  position: absolute
+  top: .6rem
+  left: .5rem
+  +easeall
+
+  +breakpoint-large
+    left: 1rem
+    +easeall
+
+header .mds-nav
+  float: right
+  padding: 1rem 2rem
+
+  +breakpoint-medium
+    padding: 0
+
+header .mds-nav li
+  display: block
+  +easeall
+
+  +breakpoint-medium
+    margin-right: -4px
+    display: inline-block
+    +easeall
+
+header .mds-nav li a
+  font-size: .675rem
+  font-weight: 700
+  display: block
+  text-align: right
+  text-decoration: none
+  padding: .25rem
+  text-transform: uppercase
+  letter-spacing: 1px
+  +easeall
+
+  +breakpoint-medium
+    padding: 1rem 2.5rem
+    margin: 0
+
+  &:hover
+    background-color: none
+
+    +breakpoint-medium
+      //letter-spacing: 1px
+      background-color: $color-white
+      box-shadow: 1px 0 0 0 $color-medium-grey, -1px 0 0 0 $color-medium-grey
+      +easeall

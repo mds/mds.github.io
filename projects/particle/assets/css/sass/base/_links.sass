@@ -1,6 +1,13 @@
-
 a 
   color: $color-dark
-  text-decoration: none
+  background-image: linear-gradient(to bottom, $color-dark 75%)
+  background-position: 0 99.9%
+  background-repeat: repeat-x
+  background-size: 1px 1px
   outline: 0
+  +easeall
+
+  &:hover
+    //background-color: $color-link
+    +easeall
 

@@ -1,9 +1,29 @@
 
 p 
-  margin-bottom: 1.5rem
+  margin-bottom: 1.75rem
+  font-size: 1em
 
   &:first-of-type
-    font-weight: 700
+    font-size: 1.125rem
+    line-height: 1.2em
+    margin-bottom: 2em
+    font-weight: 600
+
+    +breakpoint-small
+      font-size: 1.75rem
+
+// Large Drop Cap
+// p:first-of-type:first-letter
+//   float: left
+//   font-size: 4em
+//   padding: .5rem 3rem
+//   margin: .25rem 3rem .2rem 0
+//   border-right: 1px solid $color-border
+//   font-weight: 800
+//   text-transform: uppercase
+  
+  // Large intro paragraph
+  
 
 blockquote 
   line-height: 1.2
@@ -24,10 +44,12 @@ cite
     top: -3px
 
 hr 
-  margin: 3rem 0
+  display: block
   height: 1px
   border: 0
-  background: $color-dark
+  border-top: 1px solid $color-medium-grey
+  margin: 3em 0
+  padding: 0
 
 abbr 
   border-bottom: 1px dotted $color-dark
@@ -46,7 +68,7 @@ code
 
 pre 
   //border-left: 1px solid $color-medium-grey
-  background-color: $color-dark
+  background-color: #191919//$color-dark
   padding: 2rem
   margin: 3rem 0
   color: $color-light-grey
@@ -59,11 +81,8 @@ strong
   font-weigth: 600
 
 em 
+  font-family: georgia, serif
   font-style: italic
 
-.first-word
-  font-family: "ff-basic-gothic-sc-web-pro"
-  text-transform: lowercase
-  //font-weight: 500
 
  

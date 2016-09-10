@@ -3,6 +3,6 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	  viewBox="0 0 24 24"   xml:space="preserve">
  
-<path class="svg-color" d="M24,6c0-0.6-0.4-1-1-1H1C0.4,5,0,5.4,0,6v12c0,0.6,0.4,1,1,1h22c0.6,0,1-0.4,1-1V6z M23,18H1V6h22V18z
+<path fill="currentColor" d="M24,6c0-0.6-0.4-1-1-1H1C0.4,5,0,5.4,0,6v12c0,0.6,0.4,1,1,1h22c0.6,0,1-0.4,1-1V6z M23,18H1V6h22V18z
 	 M11.7,14.9l-9-6.5l0.6-0.8l8.7,6.3l8.7-6.3l0.6,0.8l-9,6.5C12.2,15,12.1,15,12,15S11.8,15,11.7,14.9z"/>
 </svg>

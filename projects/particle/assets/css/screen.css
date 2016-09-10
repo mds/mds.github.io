@@ -11,19 +11,28 @@ header, footer, nav, section, article, hgroup, figure, main {
 main {
   width: 100%;
   padding: 1rem;
-  max-width: 44rem;
-  margin: auto; }
+  max-width: 46rem;
+  margin: 0 auto 5rem; }
+  main:before {
+    content: " ";
+    width: 1px;
+    top: 0;
+    bottom: 0;
+    background-color: #efefef;
+    display: block;
+    position: fixed;
+    z-index: -100; }
 
 body {
   display: flex;
   flex-direction: column;
-  background: #fafafa;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.6;
   -webkit-text-size-adjust: 100%;
   color: #222;
   min-height: 100vh;
-  font-family: "ff-basic-gothic-web-pro", -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+  background-color: #fafafa;
+  font-family: "work sans", "ff-basic-gothic-web-pro", -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
   font-variant-ligatures: contextual;
   font-feature-settings: "calt" 1;
   -webkit-transition: all 0.25s ease-out;
@@ -128,21 +137,38 @@ input[type=search]::-webkit-search-decoration {
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1em;
-  font-weight: 700; }
+  font-weight: 800;
+  color: #222; }
 
 h1 {
   font-size: 1.5em;
-  padding: 2rem 0 1rem;
-  margin-bottom: 1rem;
-  text-transform: uppercase; }
+  padding: 3rem 0 3rem;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+  display: block;
+  border-bottom: 1px solid #efefef;
+  -webkit-transition: all 0.25s ease-out;
+  -moz-transition: all 0.25s ease-out;
+  -o-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out; }
+  @media (min-width: 640px) {
+    h1 {
+      font-size: 4.5em;
+      line-height: 3.8rem;
+      padding: 5rem 0 5rem;
+      margin-bottom: 5rem;
+      -webkit-transition: all 0.25s ease-out;
+      -moz-transition: all 0.25s ease-out;
+      -o-transition: all 0.25s ease-out;
+      transition: all 0.25s ease-out; } }
 
 h2 {
   font-size: 1.375em;
-  padding: 2rem 0 1rem;
+  padding: 4rem 0 1rem;
   margin-bottom: 1rem; }
 
 h3 {
-  font-size: 1.25em;
+  font-size: 1.125em;
   padding: 2rem 0 0.75rem; }
 
 h4 {
@@ -152,15 +178,34 @@ h5 {
   font-size: 1.25em; }
 
 h6 {
-  font-size: 1.25em; }
+  font-family: "ff-basic-gothic-sc-web-pro";
+  float: left;
+  margin: 0.2375em 0.75em 0em 0em;
+  font-size: 1.125em;
+  font-weight: 800;
+  text-transform: lowercase; }
 
 a {
   color: #222;
-  text-decoration: none;
-  outline: 0; }
+  background-image: linear-gradient(to bottom, #222 75%);
+  background-position: 0 99.9%;
+  background-repeat: repeat-x;
+  background-size: 1px 1px;
+  outline: 0;
+  -webkit-transition: all 0.25s ease-out;
+  -moz-transition: all 0.25s ease-out;
+  -o-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out; }
+  a:hover {
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    -o-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out; }
 
 ol, ul {
-  list-style: none; }
+  list-style: square;
+  text-indent: 0.75rem;
+  font-size: 0.875em; }
 
 dl {
   overflow: hidden;
@@ -200,9 +245,16 @@ tr {
   vertical-align: top; }
 
 p {
-  margin-bottom: 1.5rem; }
+  margin-bottom: 1.75rem;
+  font-size: 1em; }
   p:first-of-type {
-    font-weight: 700; }
+    font-size: 1.125rem;
+    line-height: 1.2em;
+    margin-bottom: 2em;
+    font-weight: 600; }
+    @media (min-width: 480px) {
+      p:first-of-type {
+        font-size: 1.75rem; } }
 
 blockquote {
   line-height: 1.2;
@@ -222,10 +274,12 @@ cite {
     top: -3px; }
 
 hr {
-  margin: 3rem 0;
+  display: block;
   height: 1px;
   border: 0;
-  background: #222; }
+  border-top: 1px solid #efefef;
+  margin: 3em 0;
+  padding: 0; }
 
 abbr {
   border-bottom: 1px dotted #222;
@@ -243,7 +297,7 @@ code {
   font-size: 0.9rem; }
 
 pre {
-  background-color: #222;
+  background-color: #191919;
   padding: 2rem;
   margin: 3rem 0;
   color: #fafafa; }
@@ -256,8 +310,77 @@ strong {
   font-weigth: 600; }
 
 em {
+  font-family: georgia, serif;
   font-style: italic; }
 
-.first-word {
-  font-family: "ff-basic-gothic-sc-web-pro";
-  text-transform: lowercase; }
+header {
+  box-shadow: 0 1px 0 0 #efefef;
+  background-color: #fafafa; }
+
+header .mds-logo {
+  max-width: 55px;
+  width: 100%;
+  position: absolute;
+  top: 0.6rem;
+  left: 0.5rem;
+  -webkit-transition: all 0.25s ease-out;
+  -moz-transition: all 0.25s ease-out;
+  -o-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out; }
+  @media (min-width: 960px) {
+    header .mds-logo {
+      left: 1rem;
+      -webkit-transition: all 0.25s ease-out;
+      -moz-transition: all 0.25s ease-out;
+      -o-transition: all 0.25s ease-out;
+      transition: all 0.25s ease-out; } }
+
+header .mds-nav {
+  float: right;
+  padding: 1rem 2rem; }
+  @media (min-width: 640px) {
+    header .mds-nav {
+      padding: 0; } }
+
+header .mds-nav li {
+  display: block;
+  -webkit-transition: all 0.25s ease-out;
+  -moz-transition: all 0.25s ease-out;
+  -o-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out; }
+  @media (min-width: 640px) {
+    header .mds-nav li {
+      margin-right: -4px;
+      display: inline-block;
+      -webkit-transition: all 0.25s ease-out;
+      -moz-transition: all 0.25s ease-out;
+      -o-transition: all 0.25s ease-out;
+      transition: all 0.25s ease-out; } }
+
+header .mds-nav li a {
+  font-size: 0.675rem;
+  font-weight: 700;
+  display: block;
+  text-align: right;
+  text-decoration: none;
+  padding: 0.25rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  -webkit-transition: all 0.25s ease-out;
+  -moz-transition: all 0.25s ease-out;
+  -o-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out; }
+  @media (min-width: 640px) {
+    header .mds-nav li a {
+      padding: 1rem 2.5rem;
+      margin: 0; } }
+  header .mds-nav li a:hover {
+    background-color: none; }
+    @media (min-width: 640px) {
+      header .mds-nav li a:hover {
+        background-color: white;
+        box-shadow: 1px 0 0 0 #efefef, -1px 0 0 0 #efefef;
+        -webkit-transition: all 0.25s ease-out;
+        -moz-transition: all 0.25s ease-out;
+        -o-transition: all 0.25s ease-out;
+        transition: all 0.25s ease-out; } }
