@@ -1,5 +1,5 @@
 $small-width: 480px
-$medium-width: 640px
+$medium-width: 675px
 $large-width: 960px
 $xlarge-width: 1366px
 
@@ -20,8 +20,20 @@ $xlarge-width: 1366px
     @content
 
 =easeall
-  -webkit-transition: all .25s ease-out
-  -moz-transition: all .25s ease-out
-  -o-transition: all .25s ease-out
-  transition: all .25s ease-out
+  -webkit-transition: all .1s ease-out
+  -moz-transition: all .1s ease-out
+  -o-transition: all .1s ease-out
+  transition: all .1s ease-out
+
+=hash
+  &:after
+    content: " "
+    width: 1.5rem
+    height: 1px
+    background-color: $color-border
+    margin-top: 1rem
+    display: block
+
+=debug
+  border: 1px solid red
 

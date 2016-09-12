@@ -1,29 +1,39 @@
 
-h1, h2, h3, h4, h5, h6
+h1
   line-height: 1em
-  font-weight: 800
+  font-weight: 900
+  color: $color-headings
+
+h2, h3, h4, h5, h6
+  line-height: 1em
+  font-weight: 700
   color: $color-headings
 
 h1
-  font-size: 1.5em
-  padding: 3rem 0 3rem
-  margin-bottom: 3rem
+  font-size: 2em
+  padding: 3rem 0 2rem
+  margin-bottom: 2rem
   text-transform: uppercase
   display: block
   border-bottom: 1px solid $color-border
   +easeall
 
   +breakpoint-medium
-    font-size: 4.5em
-    line-height: 3.8rem
-    padding: 5rem 0 5rem
-    margin-bottom: 5rem
+    font-size: 6em
+    line-height: 5rem
+    padding: 5rem 0 3rem
+    margin-bottom: 3rem
     +easeall
-    
+
 h2
   font-size: 1.375em
-  padding: 4rem 0 1rem
-  margin-bottom: 1rem
+  padding: 4rem 0 2rem
+  margin-bottom: 2rem
+  display: block
+  border-bottom: 1px dashed $color-border
+
+  +breakpoint-medium
+    font-size: 1.5em
 
 h3
   font-size: 1.125em
@@ -36,12 +46,11 @@ h5
   font-size: 1.25em
 
 h6
-  font-family: "ff-basic-gothic-sc-web-pro"
   float: left
-  margin: .2375em .75em 0em 0em
-  font-size: 1.125em
-  font-weight: 800
-  text-transform: lowercase
+  margin: .4675em .625em 0em 0em
+  font-size: .875em
+  letter-spacing: .1rem
+  text-transform: uppercase
 
 
   

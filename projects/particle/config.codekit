@@ -226,6 +226,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
+	"\/assets\/css\/sass\/components\/_dark.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/sass\/components\/_dark.sass",
+		"outputAbbreviatedPath": "\/assets\/css\/sass\/css\/_dark.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
 	"\/assets\/css\/sass\/components\/_header.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -242,9 +258,25 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
-	"\/assets\/css\/sass\/screen.sass": {
+	"\/assets\/css\/sass\/components\/_wrapper.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/sass\/components\/_wrapper.sass",
+		"outputAbbreviatedPath": "\/assets\/css\/sass\/css\/_wrapper.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/assets\/css\/sass\/screen.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 2,
 		"decimalPrecision": 10,
 		"fileType": 2,
 		"ignore": 0,
@@ -254,7 +286,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
+		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},

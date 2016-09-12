@@ -2,33 +2,34 @@
 p 
   margin-bottom: 1.75rem
   font-size: 1em
+  max-width: 38rem
 
-  &:first-of-type
+  +breakpoint-small
     font-size: 1.125rem
-    line-height: 1.2em
-    margin-bottom: 2em
-    font-weight: 600
-
-    +breakpoint-small
-      font-size: 1.75rem
-
-// Large Drop Cap
-// p:first-of-type:first-letter
-//   float: left
-//   font-size: 4em
-//   padding: .5rem 3rem
-//   margin: .25rem 3rem .2rem 0
-//   border-right: 1px solid $color-border
-//   font-weight: 800
-//   text-transform: uppercase
-  
-  // Large intro paragraph
-  
 
 blockquote 
   line-height: 1.2
   margin: 3rem 0
   font-style: italic
+
+aside p
+  float: none
+  margin: 0
+  padding: 1rem 0
+  margin-bottom: 1rem
+  text-transform: uppercase
+  width: 100%
+  font-size: 1.5rem
+  line-height: 1.25em
+  font-weight: 700
+
+  +breakpoint-medium
+    max-width: 10rem
+    float: right
+    margin: 1rem 0 1rem 2rem
+    border-top: 1px solid $color-border
+    +easeall
+
 
 cite 
   display: block
@@ -63,12 +64,11 @@ code
 
 pre,
 code
-  font-family: nativeh, input, menlo, monospace
   font-size: .9rem
+  +font-mono
 
 pre 
-  //border-left: 1px solid $color-medium-grey
-  background-color: #191919//$color-dark
+  background-color: $color-dark
   padding: 2rem
   margin: 3rem 0
   color: $color-light-grey
@@ -78,11 +78,14 @@ code
   background-color: $color-medium-grey
 
 strong 
-  font-weigth: 600
+  font-weigth: 00
 
 em 
-  font-family: georgia, serif
+  font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif
   font-style: italic
+  font-variant-ligatures: contextual
+  font-feature-settings: "calt" 1
+  letter-spacing: 0.02rem
 
 
  
