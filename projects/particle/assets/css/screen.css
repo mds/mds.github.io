@@ -45,7 +45,7 @@ body {
   min-height: 100vh;
   color: #333;
   background-color: white;
-  font-family: "work sans", "ff-basic-gothic-web-pro", -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+  font-family: "Work Sans", -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
   -webkit-font-variant-ligatures: contextual;
           font-variant-ligatures: contextual;
   -webkit-font-feature-settings: "calt" 1;
