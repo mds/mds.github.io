@@ -43,7 +43,7 @@ body {
   line-height: 1.6;
   -webkit-text-size-adjust: 100%;
   min-height: 100vh;
-  color: #292929;
+  color: #333;
   background-color: white;
   font-family: "work sans", "ff-basic-gothic-web-pro", -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
   -webkit-font-variant-ligatures: contextual;
@@ -61,19 +61,19 @@ body {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mds\/Dropbox\%20\(Personal\)\/_Projects\/2016\/mds\.github\.io\/projects\/particle\/assets\/css\/sass\/base\/_forms\.sass}line{font-family:\000033}}
 ::-webkit-input-placeholder {
-  color: #292929; }
+  color: #333; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mds\/Dropbox\%20\(Personal\)\/_Projects\/2016\/mds\.github\.io\/projects\/particle\/assets\/css\/sass\/base\/_forms\.sass}line{font-family:\000036}}
 ::-moz-placeholder {
-  color: #292929; }
+  color: #333; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mds\/Dropbox\%20\(Personal\)\/_Projects\/2016\/mds\.github\.io\/projects\/particle\/assets\/css\/sass\/base\/_forms\.sass}line{font-family:\000039}}
 :-ms-input-placeholder {
-  color: #292929; }
+  color: #333; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mds\/Dropbox\%20\(Personal\)\/_Projects\/2016\/mds\.github\.io\/projects\/particle\/assets\/css\/sass\/base\/_forms\.sass}line{font-family:\0000312}}
 :-moz-placeholder {
-  color: #292929; }
+  color: #333; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mds\/Dropbox\%20\(Personal\)\/_Projects\/2016\/mds\.github\.io\/projects\/particle\/assets\/css\/sass\/base\/_forms\.sass}line{font-family:\0000316}}
 fieldset {
@@ -83,13 +83,13 @@ fieldset {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mds\/Dropbox\%20\(Personal\)\/_Projects\/2016\/mds\.github\.io\/projects\/particle\/assets\/css\/sass\/base\/_forms\.sass}line{font-family:\0000321}}
 legend {
   margin-bottom: 1rem;
-  color: #292929; }
+  color: #333; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mds\/Dropbox\%20\(Personal\)\/_Projects\/2016\/mds\.github\.io\/projects\/particle\/assets\/css\/sass\/base\/_forms\.sass}line{font-family:\0000326}}
 label {
   display: block;
   margin: 0;
-  color: #292929;
+  color: #333;
   font-size: 1em; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mds\/Dropbox\%20\(Personal\)\/_Projects\/2016\/mds\.github\.io\/projects\/particle\/assets\/css\/sass\/base\/_forms\.sass}line{font-family:\0000333}}
@@ -102,17 +102,17 @@ button, input, select, textarea {
 input, textarea {
   width: 100%;
   padding: 0.7rem;
-  border: 1px solid #292929;
-  box-shadow: inset 0 2px 0 #292929;
+  border: 1px solid #333;
+  box-shadow: inset 0 2px 0 #333;
   font-size: 1em;
   font-weight: 400; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mds\/Dropbox\%20\(Personal\)\/_Projects\/2016\/mds\.github\.io\/projects\/particle\/assets\/css\/sass\/base\/_forms\.sass}line{font-family:\0000348}}
   input:hover, textarea:hover {
-    border-color: #292929; }
+    border-color: #333; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mds\/Dropbox\%20\(Personal\)\/_Projects\/2016\/mds\.github\.io\/projects\/particle\/assets\/css\/sass\/base\/_forms\.sass}line{font-family:\0000351}}
   input:focus, textarea:focus {
-    outline: 1px solid #292929;
-    border-color: #292929; }
+    outline: 1px solid #333;
+    border-color: #333; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mds\/Dropbox\%20\(Personal\)\/_Projects\/2016\/mds\.github\.io\/projects\/particle\/assets\/css\/sass\/base\/_forms\.sass}line{font-family:\0000356}}
 textarea {
@@ -153,11 +153,11 @@ select {
   display: block;
   width: 100%;
   height: 2.75rem;
-  border: 1px solid #292929; }
+  border: 1px solid #333; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mds\/Dropbox\%20\(Personal\)\/_Projects\/2016\/mds\.github\.io\/projects\/particle\/assets\/css\/sass\/base\/_forms\.sass}line{font-family:\0000396}}
   select:focus {
-    outline: 1px solid #292929;
-    border-color: #292929; }
+    outline: 1px solid #333;
+    border-color: #333; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mds\/Dropbox\%20\(Personal\)\/_Projects\/2016\/mds\.github\.io\/projects\/particle\/assets\/css\/sass\/base\/_forms\.sass}line{font-family:\00003101}}
 select[multiple] {
@@ -172,13 +172,13 @@ input[type=search]::-webkit-search-decoration {
 h1 {
   line-height: 1em;
   font-weight: 900;
-  color: #292929; }
+  color: #333; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mds\/Dropbox\%20\(Personal\)\/_Projects\/2016\/mds\.github\.io\/projects\/particle\/assets\/css\/sass\/base\/_headings\.sass}line{font-family:\000037}}
 h2, h3, h4, h5, h6 {
   line-height: 1em;
   font-weight: 700;
-  color: #292929; }
+  color: #333; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mds\/Dropbox\%20\(Personal\)\/_Projects\/2016\/mds\.github\.io\/projects\/particle\/assets\/css\/sass\/base\/_headings\.sass}line{font-family:\0000312}}
 h1 {
@@ -190,7 +190,7 @@ h1 {
   border-bottom: 1px solid #efefef;
   -webkit-transition: all 0.1s ease-out;
   transition: all 0.1s ease-out; }
-  @media (min-width: 675px) {
+  @media (min-width: 639px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mds\/Dropbox\%20\(Personal\)\/_Projects\/2016\/mds\.github\.io\/projects\/particle\/assets\/css\/sass\/base\/_headings\.sass}line{font-family:\0000312}}
     h1 {
       font-size: 6em;
@@ -199,33 +199,42 @@ h1 {
       margin-bottom: 3rem;
       -webkit-transition: all 0.1s ease-out;
       transition: all 0.1s ease-out; } }
-
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mds\/Dropbox\%20\(Personal\)\/_Projects\/2016\/mds\.github\.io\/projects\/particle\/assets\/css\/sass\/base\/_headings\.sass}line{font-family:\0000328}}
+  h1.has-meta {
+    padding: 3rem 0 0;
+    border-bottom: none; }
+    @media (min-width: 639px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mds\/Dropbox\%20\(Personal\)\/_Projects\/2016\/mds\.github\.io\/projects\/particle\/assets\/css\/sass\/base\/_headings\.sass}line{font-family:\0000328}}
+      h1.has-meta {
+        padding: 5rem 0 0;
+        margin-bottom: 2rem; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mds\/Dropbox\%20\(Personal\)\/_Projects\/2016\/mds\.github\.io\/projects\/particle\/assets\/css\/sass\/base\/_headings\.sass}line{font-family:\0000336}}
 h2 {
   font-size: 1.375em;
   padding: 4rem 0 2rem;
   margin-bottom: 2rem;
   display: block;
   border-bottom: 1px dashed #efefef; }
-  @media (min-width: 675px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mds\/Dropbox\%20\(Personal\)\/_Projects\/2016\/mds\.github\.io\/projects\/particle\/assets\/css\/sass\/base\/_headings\.sass}line{font-family:\0000328}}
+  @media (min-width: 639px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mds\/Dropbox\%20\(Personal\)\/_Projects\/2016\/mds\.github\.io\/projects\/particle\/assets\/css\/sass\/base\/_headings\.sass}line{font-family:\0000336}}
     h2 {
-      font-size: 1.5em; } }
+      font-size: 1.75em; } }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mds\/Dropbox\%20\(Personal\)\/_Projects\/2016\/mds\.github\.io\/projects\/particle\/assets\/css\/sass\/base\/_headings\.sass}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mds\/Dropbox\%20\(Personal\)\/_Projects\/2016\/mds\.github\.io\/projects\/particle\/assets\/css\/sass\/base\/_headings\.sass}line{font-family:\0000346}}
 h3 {
   font-size: 1.125em;
   padding: 2rem 0 0.75rem; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mds\/Dropbox\%20\(Personal\)\/_Projects\/2016\/mds\.github\.io\/projects\/particle\/assets\/css\/sass\/base\/_headings\.sass}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mds\/Dropbox\%20\(Personal\)\/_Projects\/2016\/mds\.github\.io\/projects\/particle\/assets\/css\/sass\/base\/_headings\.sass}line{font-family:\0000350}}
 h4 {
   font-size: 1.25em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mds\/Dropbox\%20\(Personal\)\/_Projects\/2016\/mds\.github\.io\/projects\/particle\/assets\/css\/sass\/base\/_headings\.sass}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mds\/Dropbox\%20\(Personal\)\/_Projects\/2016\/mds\.github\.io\/projects\/particle\/assets\/css\/sass\/base\/_headings\.sass}line{font-family:\0000353}}
 h5 {
   font-size: 1.25em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mds\/Dropbox\%20\(Personal\)\/_Projects\/2016\/mds\.github\.io\/projects\/particle\/assets\/css\/sass\/base\/_headings\.sass}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mds\/Dropbox\%20\(Personal\)\/_Projects\/2016\/mds\.github\.io\/projects\/particle\/assets\/css\/sass\/base\/_headings\.sass}line{font-family:\0000356}}
 h6 {
   float: left;
   margin: 0.4675em 0.625em 0em 0em;
@@ -235,7 +244,7 @@ h6 {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mds\/Dropbox\%20\(Personal\)\/_Projects\/2016\/mds\.github\.io\/projects\/particle\/assets\/css\/sass\/base\/_links\.sass}line{font-family:\000031}}
 a {
-  color: #292929;
+  color: #333;
   border-bottom: 1px solid currentColor;
   text-decoration: none;
   padding-bottom: 1px;
@@ -322,7 +331,7 @@ tr {
 p {
   margin-bottom: 1.75rem;
   font-size: 1em;
-  max-width: 38rem; }
+  max-width: 40rem; }
   @media (min-width: 480px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mds\/Dropbox\%20\(Personal\)\/_Projects\/2016\/mds\.github\.io\/projects\/particle\/assets\/css\/sass\/base\/_text\.sass}line{font-family:\000032}}
     p {
@@ -345,7 +354,7 @@ aside p {
   font-size: 1.5rem;
   line-height: 1.25em;
   font-weight: 700; }
-  @media (min-width: 675px) {
+  @media (min-width: 639px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mds\/Dropbox\%20\(Personal\)\/_Projects\/2016\/mds\.github\.io\/projects\/particle\/assets\/css\/sass\/base\/_text\.sass}line{font-family:\0000315}}
     aside p {
       max-width: 10rem;
@@ -365,7 +374,7 @@ cite {
     display: inline-block;
     width: 2.5rem;
     margin-right: 0.3rem;
-    border-bottom: 1px solid #292929;
+    border-bottom: 1px solid #333;
     position: relative;
     top: -3px; }
 
@@ -380,14 +389,14 @@ hr {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mds\/Dropbox\%20\(Personal\)\/_Projects\/2016\/mds\.github\.io\/projects\/particle\/assets\/css\/sass\/base\/_text\.sass}line{font-family:\0000355}}
 abbr {
-  border-bottom: 1px dotted #292929;
+  border-bottom: 1px dotted #333;
   cursor: help; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mds\/Dropbox\%20\(Personal\)\/_Projects\/2016\/mds\.github\.io\/projects\/particle\/assets\/css\/sass\/base\/_text\.sass}line{font-family:\0000359}}
 code {
   display: inline-block;
-  background: #292929;
-  border: 1px solid #292929;
+  background: #333;
+  border: 1px solid #333;
   padding: 0 0.3rem; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mds\/Dropbox\%20\(Personal\)\/_Projects\/2016\/mds\.github\.io\/projects\/particle\/assets\/css\/sass\/base\/_text\.sass}line{font-family:\0000365}}
@@ -398,7 +407,7 @@ code {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mds\/Dropbox\%20\(Personal\)\/_Projects\/2016\/mds\.github\.io\/projects\/particle\/assets\/css\/sass\/base\/_text\.sass}line{font-family:\0000370}}
 pre {
-  background-color: #292929;
+  background-color: #333;
   padding: 2rem;
   margin: 3rem 0;
   color: #fafafa; }
@@ -431,7 +440,7 @@ header {
   padding: 0;
   -webkit-transition: all 0.1s ease-out;
   transition: all 0.1s ease-out; }
-  @media (min-width: 675px) {
+  @media (min-width: 639px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mds\/Dropbox\%20\(Personal\)\/_Projects\/2016\/mds\.github\.io\/projects\/particle\/assets\/css\/sass\/components\/_header\.sass}line{font-family:\000031}}
     header {
       -webkit-transition: all 0.1s ease-out;
@@ -463,7 +472,7 @@ header .mds-logo {
 header .mds-nav {
   float: right;
   padding: 0.75rem 2rem 1.25rem; }
-  @media (min-width: 675px) {
+  @media (min-width: 639px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mds\/Dropbox\%20\(Personal\)\/_Projects\/2016\/mds\.github\.io\/projects\/particle\/assets\/css\/sass\/components\/_header\.sass}line{font-family:\0000333}}
     header .mds-nav {
       padding: 0;
@@ -474,7 +483,7 @@ header .mds-nav li {
   display: block;
   -webkit-transition: all 0.1s ease-out;
   transition: all 0.1s ease-out; }
-  @media (min-width: 675px) {
+  @media (min-width: 639px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mds\/Dropbox\%20\(Personal\)\/_Projects\/2016\/mds\.github\.io\/projects\/particle\/assets\/css\/sass\/components\/_header\.sass}line{font-family:\0000341}}
     header .mds-nav li {
       margin-right: -6px;
@@ -511,7 +520,7 @@ header .mds-nav li a {
   header .mds-nav li a:hover:before {
     background-color: black;
     width: 1.5rem; }
-  @media (min-width: 675px) {
+  @media (min-width: 639px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mds\/Dropbox\%20\(Personal\)\/_Projects\/2016\/mds\.github\.io\/projects\/particle\/assets\/css\/sass\/components\/_header\.sass}line{font-family:\0000350}}
     header .mds-nav li a {
       padding: 1.75rem 2.5rem 1.5rem;
@@ -547,4 +556,23 @@ header .mds-nav li a {
 .dark {
   height: 800px;
   width: 100%;
-  background-color: #292929; }
+  background-color: #333; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mds\/Dropbox\%20\(Personal\)\/_Projects\/2016\/mds\.github\.io\/projects\/particle\/assets\/css\/sass\/components\/_post-meta\.sass}line{font-family:\000031}}
+.post-meta {
+  font-size: 0.75rem;
+  padding: 1rem 0;
+  display: block;
+  margin-bottom: 4rem;
+  border-top: 1px dashed #efefef;
+  border-bottom: 1px dashed #efefef;
+  font-family: nativeh, input, menlo, monospace; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mds\/Dropbox\%20\(Personal\)\/_Projects\/2016\/mds\.github\.io\/projects\/particle\/assets\/css\/sass\/components\/_post-meta\.sass}line{font-family:\0000310}}
+  .post-meta a {
+    border-bottom: none;
+    font-weight: bold; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mds\/Dropbox\%20\(Personal\)\/_Projects\/2016\/mds\.github\.io\/projects\/particle\/assets\/css\/sass\/components\/_post-meta\.sass}line{font-family:\0000320}}
+.post-meta-tags {
+  float: right;
+  display: none; }
