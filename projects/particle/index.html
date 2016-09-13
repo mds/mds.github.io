@@ -8,11 +8,17 @@
     <title>Particle</title> 
     <link rel="stylesheet" href="assets/css/screen.css">
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,700,900" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="assets/readable/readable.css"> -->
   </head>
   <body>
-    <header>
-      <a class="logo" href="#">
+    <div class="mds-fixed--left">
+      <ul>
+        <li><a href="#">Twitter</a></li> • 
+        <li><a href="#">Dribbble</a></li>
+      </ul>
+    </div>
+    <!-- <div class="mds-fixed--right"><p><a href="#">Become a MDS VIP</a></p></div> -->
+    <div class="mds-nav-container">
+      <a class="logo" href="/">
         <svg class="mds-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 40">
         <title>mds-logo</title>
           <path fill="currentColor" d="M40.78,28.57a3.66,3.66,0,0,0,1.84.49v4.59a8.23,8.23,0,0,1-4.14-1.11h0a8.25,8.25,0,0,1-4.13-7.16,3.67,3.67,0,1,0-7.35,0v3.67H22.4V25.38a3.67,3.67,0,1,0-7.35,0v3.67H10.47V25.38A8.26,8.26,0,0,1,24.7,19.67h0a8.27,8.27,0,0,1,11.94,0h0A8.28,8.28,0,0,1,46.29,18V9.07h4.59V25.38a3.65,3.65,0,0,0,.5,1.85,3.73,3.73,0,0,0,3.18,1.83,3.69,3.69,0,0,0,3.67-3.67,8.27,8.27,0,0,1,15.43-4.13l-4,2.3a3.67,3.67,0,0,0-6.86,1.83h0a8.27,8.27,0,0,1-15.42,4.13,10.65,10.65,0,0,1-1.11-4.13,3.67,3.67,0,1,0-5.51,3.18Z" />
@@ -21,17 +27,17 @@
       <nav>
         <ul class="mds-nav">
           <li class="nav-about"><a href="#">About</a></li>
-          <li class="nav-blog"><a href="#">Blog</a></li>
-          <li class="nav-aiux"><a href="#">AIUX</a></li>
+          <li class="nav-blog"><a href="/blog">Blog</a></li>
+          <li class="nav-projects"><a href="#">Projects</a></li>
           <li class="nav-working"><a href="#">Work</a></li>
         </ul>
       </nav>
-    </header>
-    <section class="mds-wrapper">
-      <main>
+    </div>
+    <main class="post">
+      <section class="mds-wrapper">
         <h1 class="has-meta"><!-- AIUX -->This Is Not The Work Of Any One Man</h1>
         <div class="post-meta">
-          <span>Written by <a href="#">Matt </a> on </span><time datetime="2016-09-02">Friday, 02 Sep 2016</time>
+          <span>By <a href="#">Matt</a> on </span><time datetime="2016-09-02">Friday, 02 Sep 2016</time>
           <div class="post-meta-tags"><a href="#">Web</a>, <a href="#">Design</a>, <a href="#">Development</a></div>
         </div>
         <p>Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.</p>
@@ -40,7 +46,7 @@
           <figcaption>This is an image</figcaption>
         </figure>
         <p>Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.</p>
-        <p>Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about <a href="#">technological</a> dangers also come from science.</p>
+        <blockquote><p>Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about <a href="#">technological</a> dangers also come from science.</p><p>Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.</p></blockquote>
         <h2>Heading 2</h2>
         <p>Buy why, some say, the moon? Why choose <code>CMD + M</code> as our goal? And they may as well ask why climb the highest mountain?</p>
         <p>Space, <em>the final frontier</em>. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new <a href="#">civilizations</a>, to boldly go where no man has gone before.</p>
@@ -70,6 +76,29 @@
           <li>Playing outside with the kids</li>
           <li>When we go out on a date</li>
         </ul>
+
+        <hr>
+        <form action="https://www.getdrip.com/forms/0000000000/submissions" method="post" data-drip-embedded-form="0000000000">
+          <div class="mds-field--name mds-field js-floatl">
+            <div class="mds-field__input-wrapper">
+              <label for="fields[first_name]" class="floatl__label">First Name</label>
+              <input placeholder="First Name" class="floatl__input" type="text" name="fields[first_name]" />
+            </div>
+          </div>
+          <div class="mds-field--email mds-field js-floatl">
+            <div class="mds-field__input-wrapper">
+              <label for="fields[email]" class="floatl__label">Email</label>
+              <input placeholder="Email" class="floatl__input" type="email" name="fields[email]" />
+            </div>
+          </div>
+          <div class="mds-btn-wrapper">
+            <button onclick="_gs('event', 'Clicked send me the files')" id='ck_subscribe_button' class="cta-primary-email button btn fields bounce-arrow" data-drip-attribute="sign-up-button">Yes, please</button>
+          </div>
+          <div class="clear"></div>
+        </form>
+        <hr>
+
+        <p>Curious that we spend more time congratulating people who have succeeded than encouraging people who have not.
         <h2>A Few Other Things I Need to Say</h2>
         <p>Here they are in all of their glory.</p>
         <ol>
@@ -79,9 +108,50 @@
           <li>Playing outside with the kids</li>
           <li>When we go out on a date</li>
         </ol>
-      </main>
-    </section>
-    <!-- <script type="text/javascript" src="assets/readable/readable-vanilla.js"></script> -->
+        <p>The regret on our side is, they used to say years ago, we are reading about you in science class. Now they say, we are reading about you in history class.</p>
+        <p>I don't know what you could say about a day in which you have seen four beautiful sunsets. Astronomy compels the soul to look upward, and leads us from this world to another.</p>
+        <p>I don't know what you could say about a day in which you have seen four beautiful sunsets.</p>
+        <p>Curious that we spend more time congratulating people who have succeeded than encouraging people who have not.</p>
+        <ul>
+          <li><a href="#">When you wake up in the morning</a></li>
+          <li><a href="#">After you've gotten out of the shower</a></li>
+          <li><a href="#">Clothed and ready for the day</a></li>
+          <li><a href="#">Playing outside with the kids</a></li>
+          <li><a href="#">When we go out on a date</a></li>
+        </ul>
+      </section><!-- end mds-wrapper -->
+    </main><!-- end main section -->
+
+    <div class="mds-form-container feature-form">
+      <div class="mds-form-wrapper">
+        <div class="mds-wrapper">
+          <h3>MDS Monday Mailer</h3>
+          <p>My best articles, tips, and tricks sent out every Monday.</p>
+          <form action="https://www.getdrip.com/forms/0000000000/submissions" method="post" data-drip-embedded-form="0000000000">
+            <div class="mds-field--name mds-field js-floatl">
+              <div class="mds-field__input-wrapper">
+                <label for="fields[first_name]" class="floatl__label">First Name</label>
+                <input placeholder="First Name" class="floatl__input" type="text" name="fields[first_name]" />
+              </div>
+            </div>
+            <div class="mds-field--email mds-field js-floatl">
+              <div class="mds-field__input-wrapper">
+                <label for="fields[email]" class="floatl__label">Email</label>
+                <input placeholder="Email" class="floatl__input" type="email" name="fields[email]" />
+              </div>
+            </div>
+            <div class="mds-btn-wrapper">
+              <button onclick="_gs('event', 'Clicked send me the files')" id='ck_subscribe_button' class="cta-primary-email button btn fields bounce-arrow" data-drip-attribute="sign-up-button">Yes, please</button>
+            </div>
+          </form>
+          <p class="mds-form-disclaimer clear" >No B.S. Unsubscribe at anytime.</p>
+        </div><!-- end mds-wrapper -->
+      </div><!-- end mds-form-wrapper -->
+    </div><!-- end mds-form-container -->
+
+    <script type="text/javascript" src="assets/js/jquery.js"></script>
+    <script type="text/javascript" src="assets/js/floatl.js"></script>
+    <script type="text/javascript" src="assets/js/index.js"></script>
   </body>
 </html>
 

@@ -5,12 +5,16 @@ p
   max-width: 40rem
 
   +breakpoint-small
-    font-size: 1.125rem
+    font-size: 1rem
 
 blockquote 
-  line-height: 1.2
-  margin: 3rem 0
-  font-style: italic
+  margin: 1rem 0
+  border-left: 1px solid rgba($color-medium-dark-grey, .5)
+  padding: 0 1rem
+  color: $color-medium-dark-grey
+  
+  a
+    color: inherit
 
 aside p
   float: none
@@ -29,7 +33,6 @@ aside p
     margin: 1rem 0 1rem 2rem
     border-top: 1px solid $color-border
     +easeall
-
 
 cite 
   display: block
@@ -75,17 +78,17 @@ pre
 
 code
   border: 0
-  background-color: $color-medium-grey
+  background-color: $color-white
+  border: 1px solid $color-border
+  padding: 0 .5rem
 
 strong 
-  font-weigth: 00
+  font-weigth: 700
 
 em 
-  font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif
   font-style: italic
   font-variant-ligatures: contextual
   font-feature-settings: "calt" 1
-  letter-spacing: 0.02rem
-
+  +font-system
 
  

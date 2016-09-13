@@ -1,5 +1,32 @@
+
 .mds-wrapper
-  max-width: 100%
-  background-color: $color-background
-  position: relative
-  z-index: 0
+  width: 100%
+  padding: 0 1rem
+  max-width: 40rem
+  margin: 0 auto
+  +easeall
+
+  +breakpoint-large
+    max-width: 56rem
+    +easeall
+
+  // line that goes down
+  &:before
+    content: " "
+    width: 1px
+    top: 0
+    bottom: 0
+    background-color: $color-border
+    display: block
+    position: fixed
+    z-index: -2
+
+.mds-form-wrapper
+  width: 100%
+  max-width: 50rem
+  margin: 0 auto
+  +easeall
+
+  +breakpoint-large
+    max-width: 70rem
+    +easeall

@@ -2,20 +2,22 @@
   font-size: .75rem
   padding: 1rem 0 
   display: block
-  margin-bottom: 4rem
-  border-top: 1px dashed $color-border
+  margin-bottom: 1rem
+  border-top: 1px solid $color-border
   border-bottom: 1px dashed $color-border
   +font-mono
+
+  +breakpoint-medium
+    margin-bottom: 3rem
 
   a
     border-bottom: none
     font-weight: bold
+    +easeall
 
-// .post-meta span
-//   display: none
-
-//   +breakpoint-medium
-//     display: inline
+    &:hover
+      border-bottom: 1px solid $color-primary
+      +easeall
 
 .post-meta-tags
   float: right

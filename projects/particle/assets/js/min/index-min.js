@@ -1,0 +1,1 @@
+$(document).ready(function(){new Floatl(document.querySelectorAll(".js-floatl")[0]),new Floatl(document.querySelectorAll(".js-floatl")[1]),new Floatl(document.querySelectorAll(".js-floatl")[2]),new Floatl(document.querySelectorAll(".js-floatl")[3])});

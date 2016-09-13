@@ -10,7 +10,8 @@ h2, h3, h4, h5, h6
   color: $color-headings
 
 h1
-  font-size: 2em
+  font-size: 2.5em
+  line-height: .75em
   padding: 3rem 0 2rem
   margin-bottom: 2rem
   text-transform: uppercase
@@ -19,15 +20,12 @@ h1
   +easeall
 
   +breakpoint-medium
-    font-size: 3.5em
-    line-height: 3.25rem
+    font-size: 4em
     padding: 3rem 0 2rem
-    margin-bottom: 2rem
     +easeall
 
   +breakpoint-large
     font-size: 6em
-    line-height: 5rem
     padding: 5rem 0 3rem
     margin-bottom: 3rem
     +easeall
@@ -38,34 +36,35 @@ h1
 
     +breakpoint-medium
       padding: 5rem 0 0
-      margin-bottom: 2rem
+      margin-bottom: 3rem
 
 h2
   font-size: 1.375em
-  padding: 4rem 0 2rem
-  margin-bottom: 2rem
-  display: block
-  border-bottom: 1px dashed $color-border
+  margin-bottom: 1rem
 
   +breakpoint-medium
-    font-size: 1.75em
+    font-size: 2em
 
 h3
   font-size: 1.125em
   padding: 2rem 0 .75rem
 
+  +breakpoint-medium
+    font-size: 1.5em
+
 h4
-  font-size: 1.25em
+  font-size: 1.125em
 
 h5
-  font-size: 1.25em
+  font-size: 1.125em
 
 h6
-  float: left
-  margin: .4675em .625em 0em 0em
   font-size: .875em
   letter-spacing: .1rem
   text-transform: uppercase
+  padding-top: 1rem
+  margin-bottom: .5rem
+  +hash
 
 
   

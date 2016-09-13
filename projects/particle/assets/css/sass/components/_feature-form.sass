@@ -1,0 +1,98 @@
+$color-feature-border: #333
+$color-feature-background: black
+$color-feature-hover: black
+
+.feature-form
+  margin-top: 2rem
+  //padding: 3rem 0 7rem
+  position: relative
+  z-index: 100
+
+  h2, h3
+    color: $color-white
+    border-color: $color-feature-border
+    margin-bottom: 1rem
+
+  p
+    color: $color-medium-dark-grey
+
+  .mds-form-wrapper
+    background-color: $color-dark
+    padding: 2rem 0 5rem
+
+    +breakpoint-medium
+      padding: 3rem 2rem 6rem
+
+  .mds-wrapper:before
+    display: none
+
+  input, textarea
+    border: none//1px solid $color-black
+    background: rgba($color-black, .4)
+    color: $color-white
+
+    &:hover
+      background: rgba($color-black, .5)
+      +easeall
+
+    &:focus
+      background: rgba($color-black, 1)
+      +easeall
+
+  input:focus + label 
+    color: $color-medium-dark-grey
+    +easeall
+
+  label
+    color: $color-placeholder
+
+  .floatl__label
+    color: $color-medium-dark-grey
+
+  .floatl--focused .floatl__label
+    color: $color-medium-dark-grey
+
+  ::-webkit-input-placeholder 
+    color: $color-placeholder
+
+  \:-moz-placeholder 
+    color: $color-placeholder
+
+  ::-moz-placeholder 
+    color: $color-placeholder
+
+  \:-ms-input-placeholder
+    color: $color-placeholder
+
+  // fix for chrome auto highlight
+  input:-webkit-autofill, 
+  textarea:-webkit-autofill,
+  select:-webkit-autofill
+    color: white !important
+    box-shadow: 0 0 0 200px $color-white inset
+    -webkit-text-fill-color: $color-white
+
+  button, .cta-primary-email
+    color: $color-white
+    background-color: $color-primary
+    +easeall
+
+    &:hover
+      color: $color-primary
+      background-color: $color-white
+      +easeall
+
+    &:after
+      color: $color-black
+
+  button:focus
+    color: $color-primary
+    background-color: $color-white
+
+  .mds-form-disclaimer
+    color: $color-medium-dark-grey
+    border-top: 1px dashed $color-feature-border
+    border-bottom: 1px solid $color-feature-border
+
+
+
