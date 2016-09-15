@@ -1,33 +1,34 @@
-$color-feature-border: #333
-$color-feature-background: black
-$color-feature-hover: black
+
 
 .feature-form
   margin-top: 2rem
-  //padding: 3rem 0 7rem
   position: relative
   z-index: 100
 
   h2, h3
-    color: $color-white
+    color: $color-medium-grey
     border-color: $color-feature-border
     margin-bottom: 1rem
+    text-transform: uppercase
 
   p
     color: $color-medium-dark-grey
 
   .mds-form-wrapper
     background-color: $color-dark
-    padding: 2rem 0 5rem
+
+  .mds-wrapper
+    padding: 4rem 1rem 6rem
 
     +breakpoint-medium
-      padding: 3rem 2rem 6rem
+      padding: 6rem 1rem 8rem
 
-  .mds-wrapper:before
-    display: none
+    &:before
+      background-color: $color-feature-border
+      position: absolute
 
   input, textarea
-    border: none//1px solid $color-black
+    border: 1px solid $color-feature-border
     background: rgba($color-black, .4)
     color: $color-white
 
@@ -77,13 +78,13 @@ $color-feature-hover: black
     background-color: $color-primary
     +easeall
 
-    &:hover
-      color: $color-primary
-      background-color: $color-white
-      +easeall
+    // &:hover
+    //   color: $color-primary
+    //   background-color: $color-white
+    //   +easeall
 
-    &:after
-      color: $color-black
+    // &:after
+    //   color: $color-black
 
   button:focus
     color: $color-primary

@@ -1,24 +1,62 @@
-.post-meta
+.post-meta 
   font-size: .75rem
-  padding: 1rem 0 
+  padding: 1.25rem 0 
   display: block
-  margin-bottom: 1rem
+  margin: 3rem 0 1rem
   border-top: 1px solid $color-border
   border-bottom: 1px dashed $color-border
+  line-height: 0
   +font-mono
 
   +breakpoint-medium
-    margin-bottom: 3rem
+    margin: 5rem 0 2rem
 
-  a
-    border-bottom: none
-    font-weight: bold
+  span
+    display: none
+    display: inline
+
+    +breakpoint-medium
+      display: inline
+
+  time
+    display: inline
+
+  // you'll need this if you decide to use an author image
+  // -----------------------------------------------------
+  // span
+  //   position: relative
+  //   top: -1rem
+
+.post-meta a
+  border-bottom: 1px solid $color-dark
+  font-weight: bold
+  +easeall
+
+  &:hover
+    border-bottom: 1px solid $color-primary
     +easeall
 
-    &:hover
-      border-bottom: 1px solid $color-primary
-      +easeall
+.post-meta 
+  img
+    margin: 0 .5rem 0 0
+    padding: 0
+    width: 2.5rem
+    height: 2.5rem
 
 .post-meta-tags
   float: right
-  display: none
+
+h1.post-meta
+  margin: 4rem 0 1rem
+  font-weight: normal
+  @extend .post-meta
+
+  strong
+    font-weight: bold
+
+  a
+    font-weight: bold
+
+
+
+

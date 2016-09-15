@@ -1,0 +1,22 @@
+.row
+  width: 100%
+  background: $color-dark
+  position: relative
+  z-index: 1000
+  margin-bottom: 2rem
+
+  +breakpoint-medium
+    margin-bottom: 3rem
+
+  h1
+    color: $color-medium-grey
+    border-left: 1px solid $color-feature-border
+    border-bottom: none
+    padding: 3rem 0
+    margin: 0
+
+    +breakpoint-medium
+      padding: 6rem 0
+
+  .mds-wrapper:before
+    display: none

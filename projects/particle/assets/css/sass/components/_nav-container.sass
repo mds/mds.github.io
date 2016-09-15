@@ -58,13 +58,14 @@
     text-decoration: none
     padding: .75rem .25rem
     text-transform: uppercase
+    color: $color-dark
     letter-spacing: .1rem
     border: none
     +easeall
 
-    // &:hover
-    //   letter-spacing: .125rem
-    //   +easeall
+    &:hover
+      color: $color-primary
+      +easeall
 
     // -----------------------
     // line detail on small screens
@@ -80,7 +81,7 @@
       +easeall
 
     &:hover:before
-      background-color: $color-primary
+      background-color: $color-dark
       width: 1.5rem
 
     // end line detail on small screens
@@ -108,7 +109,7 @@
 
       &:hover:before
         width: 1px
-        background-color: $color-primary
+        background-color: $color-dark
         height: 1.25rem
 
       // end line detail on larger screens
