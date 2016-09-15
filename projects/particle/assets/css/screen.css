@@ -111,7 +111,7 @@ input, textarea {
   color: #eB0052;
   width: 100%;
   outline: none;
-  border-radius: none;
+  border-radius: 0;
   -webkit-transition: all 0.1s ease-out;
   transition: all 0.1s ease-out; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mds\/Dropbox\%20\(Personal\)\/_Projects\/2016\/mds\.github\.io\/projects\/particle\/assets\/css\/sass\/base\/_forms\.sass}line{font-family:\0000362}}
