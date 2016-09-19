@@ -282,4 +282,5 @@ em {
   align-items: center;
   justify-content: center;
   padding: 0;
-  margin: 1rem; }
+  margin: 1rem;
+  line-height: 0; }
