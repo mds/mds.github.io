@@ -33,11 +33,13 @@
     color: $color-white
 
     &:hover
+      border: 1px solid lighten($color-feature-border, 5%)
       background: rgba($color-black, .5)
       +easeall
 
     &:focus
-      background: rgba($color-black, 1)
+      border: 1px solid $color-primary
+      background: $color-black
       +easeall
 
   input:focus + label 
@@ -69,19 +71,18 @@
   input:-webkit-autofill, 
   textarea:-webkit-autofill,
   select:-webkit-autofill
-    color: white !important
-    box-shadow: 0 0 0 200px $color-white inset
-    -webkit-text-fill-color: $color-white
+    color: $color-dark !important
+    -webkit-text-fill-color: $color-dark
 
   button, .cta-primary-email
     color: $color-white
     background-color: $color-primary
     +easeall
 
-    // &:hover
-    //   color: $color-primary
-    //   background-color: $color-white
-    //   +easeall
+    &:hover
+      color: $color-primary
+      background-color: $color-white
+      +easeall
 
     // &:after
     //   color: $color-black

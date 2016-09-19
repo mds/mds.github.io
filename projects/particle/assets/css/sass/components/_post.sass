@@ -7,6 +7,9 @@
     display: block
     border-bottom: 1px dashed $color-border
 
+    a
+      border-bottom: none
+
   a
     border-bottom: 1px solid $color-medium-dark-grey
 
@@ -14,4 +17,17 @@
       color: $color-primary
       border-color: $color-primary
       +easeall
+
+    &.primary
+      border-bottom: none
+      display: block
+      text-align: center
+      color: $color-white
+      background-color: $color-dark
+      padding: 1rem 0
+      max-width: 32rem
+      font-weight: bold
+
+      &:hover 
+        background-color: $color-primary
 

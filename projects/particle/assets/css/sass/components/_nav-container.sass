@@ -1,6 +1,25 @@
+.mds-nav-container--no-nav
+  background-color: $color-background
+  position: relative
+  z-index: 1000
+  padding: 0
+  +border-top-and-bottom
+  +easeall
 
+  &:hover
+    background-color: $color-white
+    +easeall
 
-.mds-nav-container
+  .mds-logo
+    width: 60px
+    margin: auto
+    display: block
+    text-align: center
+    margin-top: 1.175rem
+    padding-bottom: 1.325rem
+
+.mds-nav-container,
+.mds-nav-container--home
   background-color: $color-background//white
   position: relative
   z-index: 1000
@@ -26,7 +45,6 @@
       +easeall
 
   .mds-logo
-    //color: $color-dark
     max-width: 60px
     width: 100%
 
@@ -49,6 +67,19 @@
       margin-right: -6px
       display: inline-block
       +easeall
+
+  // current navigation selected
+  .mds-nav li.nav-current a
+    color: $color-primary
+
+    &:before
+      background-color: $color-dark
+      width: 1.5rem
+
+      +breakpoint-medium
+        width: 1px
+        background-color: $color-dark
+        height: 1.25rem
 
   .mds-nav li a
     font-size: .625rem
@@ -101,7 +132,7 @@
         width: 1px
         background-color: $color-border
         position: absolute
-        margin-left: .675rem
+        margin-left: .175rem
         margin-top: 0
         top: 0
         right: auto
@@ -114,3 +145,38 @@
 
       // end line detail on larger screens
       // -----------------------
+
+.mds-nav-container--home
+  background-color: $color-dark
+  border-color: $color-feature-border
+  border-bottom: none
+
+  .mds-logo
+    color: rgba($color-medium-dark-grey, .2)
+    +easeall
+
+    &:hover
+      color: $color-primary
+      +easeall
+
+  .mds-nav li a
+    color: $color-medium-dark-grey
+
+    &:before
+      background-color: $color-feature-border
+
+    &:hover:before
+      background-color: $color-medium-grey
+
+  &:hover
+    background-color: darken($color-dark, 1%)
+    //border-color: rgba($color-medium-dark-grey, .1)
+
+  // current navigation selected
+  .mds-nav li.nav-current a
+    color: $color-primary
+
+    &:before
+      background-color: $color-white
+
+

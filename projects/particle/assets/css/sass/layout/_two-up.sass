@@ -1,0 +1,22 @@
+.two-up
+  margin-bottom: 1rem
+
+  +breakpoint-medium
+    margin-bottom: 2rem
+
+  .half
+    width: 100%
+    padding: .25rem 0
+    opacity: .2
+
+    +breakpoint-medium
+      padding: 1rem 1rem 2rem
+      width: 50%
+      float: left
+
+    &:first-of-type
+      position: relative
+      top: -.12rem
+
+  img
+    width: 100%

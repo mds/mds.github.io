@@ -13,6 +13,9 @@ article
     +breakpoint-medium
       font-size: 3.5rem
 
+    a
+      border-bottom: none
+
   &:first-of-type
     margin-top: 1rem
 
@@ -20,3 +23,20 @@ article
     padding: 2rem 0
     //padding: .75rem 0 1rem
     margin-bottom: 1rem
+
+  &.post.page
+    padding-top: 0
+    margin-top: 0
+
+  a.read-more
+    text-transform: uppercase
+    font-size: $font-size-xsmall
+    letter-spacing: 1px
+    border-bottom: 1px solid $color-dark
+    font-weight: bold
+    +font-mono
+    +easeall
+
+    &:hover
+      border-bottom: 1px solid $color-primary
+      +easeall

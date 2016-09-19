@@ -9,14 +9,18 @@
     <link rel="stylesheet" href="assets/css/screen.css">
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,700,900" rel="stylesheet">
   </head>
-  <body>
+  <body class="home-template">
+
     <div class="mds-fixed--left">
       <ul>
         <li><a href="#">Twitter</a></li> • 
-        <li><a href="#">Dribbble</a></li>
+        <li><a href="#">Dribbble</a></li> • 
+        <li><a href="#">Instagram</a></li> • 
+        <li><a href="#">Github</a></li>
       </ul>
     </div>
-    <div class="mds-nav-container">
+
+    <div class="mds-nav-container--home">
       <a class="logo" href="/">
         <svg class="mds-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 40">
         <title>mds-logo</title>
@@ -25,22 +29,40 @@
       </a>
       <nav>
         <ul class="mds-nav">
-          <li class="nav-about"><a href="#">About</a></li>
+          <li class="nav-about"><a href="/page">About</a></li>
           <li class="nav-blog"><a href="/blog">Blog</a></li>
-          <li class="nav-projects"><a href="#">Projects</a></li>
+          <li class="nav-projects"><a href="#">AIUX</a></li>
           <li class="nav-working"><a href="#">Work</a></li>
         </ul>
       </nav>
     </div>
-  
+<!-- 
+    <div class="mds-nav-container--no-nav">
+      <svg class="mds-logo" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 80 40">
+      <title>mds-logo</title>
+        <path fill="currentColor" d="M40.78,28.57a3.66,3.66,0,0,0,1.84.49v4.59a8.23,8.23,0,0,1-4.14-1.11h0a8.25,8.25,0,0,1-4.13-7.16,3.67,3.67,0,1,0-7.35,0v3.67H22.4V25.38a3.67,3.67,0,1,0-7.35,0v3.67H10.47V25.38A8.26,8.26,0,0,1,24.7,19.67h0a8.27,8.27,0,0,1,11.94,0h0A8.28,8.28,0,0,1,46.29,18V9.07h4.59V25.38a3.65,3.65,0,0,0,.5,1.85,3.73,3.73,0,0,0,3.18,1.83,3.69,3.69,0,0,0,3.67-3.67,8.27,8.27,0,0,1,15.43-4.13l-4,2.3a3.67,3.67,0,0,0-6.86,1.83h0a8.27,8.27,0,0,1-15.42,4.13,10.65,10.65,0,0,1-1.11-4.13,3.67,3.67,0,1,0-5.51,3.18Z" />
+      </svg>
+    </div> -->
+
     <main class="post">
       <div class="mds-wrapper">
 
-        <h1>The website of Matt D. Smith</h1>
+      <h1>You've just landed right smack in the middle of my new website. For that, I thank you.</h1>
         
-<!--         <p>Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.</p>
+        <!-- <h1>Beef up your design chops</h1> -->
 
-        <p>Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.</p> -->
+        <!-- <h1>You made it! Somehow, someway, you fought your way through the bits and bytes of the internet and landed right here on my website. Now that you're here...</h1>  -->     
+
+        <p>That giant headline is true. I redesigned everything and coded it up with my bare hands. Also, I've lit a tiny fire 🔥 under my arse and committed to publish something valuable every Monday.</p>
+        <p>Keep scrolling and you'll see. It's a form made just for you.</p>
+
+      <!--   <hr>
+
+        <div class="two-up">
+          <div class="half"><img src="assets/img/logo-group-1.svg" alt="Mashable, TechCrunch, Fast Company, Buzzfeed" /></div>
+          <div class="half"><img src="assets/img/logo-group-2.svg" alt="Bloomberg, Forbes, The Wall Street Journal, Google" /></div>
+          <div class="group"></div>
+        </div> -->
 
       </div><!-- end mds-wrapper -->
     </main><!-- end main section -->
@@ -50,7 +72,8 @@
         <div class="mds-wrapper">
           <h3>MDS Monday Mailer</h3>
           <p>My best articles, tips, and tricks sent out every Monday.</p>
-          <form action="https://www.getdrip.com/forms/0000000000/submissions" method="post" data-drip-embedded-form="0000000000">
+          <form name="mdsform" action="https://www.getdrip.com/forms/0000000000/submissions" method="post" data-drip-embedded-form="0000000000" onsubmit="return validation();">
+            <div id="errors"></div>
             <div class="mds-field--name mds-field js-floatl">
               <div class="mds-field__input-wrapper">
                 <label for="fields[first_name]" class="floatl__label">First Name</label>
@@ -72,9 +95,27 @@
       </div><!-- end mds-form-wrapper -->
     </div><!-- end mds-form-container -->
 
+    <div class="mds-nav-container--home">
+      <a class="logo" href="/">
+        <svg class="mds-logo" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 80 40">
+        <title>mds-logo</title>
+          <path fill="currentColor" d="M40.78,28.57a3.66,3.66,0,0,0,1.84.49v4.59a8.23,8.23,0,0,1-4.14-1.11h0a8.25,8.25,0,0,1-4.13-7.16,3.67,3.67,0,1,0-7.35,0v3.67H22.4V25.38a3.67,3.67,0,1,0-7.35,0v3.67H10.47V25.38A8.26,8.26,0,0,1,24.7,19.67h0a8.27,8.27,0,0,1,11.94,0h0A8.28,8.28,0,0,1,46.29,18V9.07h4.59V25.38a3.65,3.65,0,0,0,.5,1.85,3.73,3.73,0,0,0,3.18,1.83,3.69,3.69,0,0,0,3.67-3.67,8.27,8.27,0,0,1,15.43-4.13l-4,2.3a3.67,3.67,0,0,0-6.86,1.83h0a8.27,8.27,0,0,1-15.42,4.13,10.65,10.65,0,0,1-1.11-4.13,3.67,3.67,0,1,0-5.51,3.18Z" />
+        </svg>
+      </a>
+      <nav>
+        <ul class="mds-nav">
+          <li class="nav-about"><a href="/page">About</a></li>
+          <li class="nav-blog"><a href="/blog">Blog</a></li>
+          <li class="nav-projects"><a href="#">Projects</a></li>
+          <li class="nav-working"><a href="#">Work</a></li>
+        </ul>
+      </nav>
+    </div>
+
     <script type="text/javascript" src="assets/js/jquery.js"></script>
     <script type="text/javascript" src="assets/js/floatl.js"></script>
     <script type="text/javascript" src="assets/js/index.js"></script>
+
   </body>
 </html>
 
