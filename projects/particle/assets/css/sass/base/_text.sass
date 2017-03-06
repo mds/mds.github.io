@@ -1,21 +1,23 @@
 
 p 
-  margin-bottom: 1.75rem
+  margin-bottom: 1.75em
   font-size: 1em
   max-width: 40rem
+  line-height: 1.5
 
   +breakpoint-xlarge
-    font-size: 1.1rem
+    max-width: 50rem
+    font-size: 1.375rem
 
-blockquote 
+blockquote p
   margin: 2rem 0
   border-left: 1px solid rgba($color-medium-dark-grey, .5)
   padding: 0 1rem
   color: $color-medium-dark-grey
-  +font-mono
-  font-size: .875em
+  font-size: 1em
   font-weight: 400
   font-style: italic
+  +font-regular
   
   a
     color: inherit
@@ -74,7 +76,7 @@ code
 
 pre,
 code
-  font-size: $font-size-xsmall
+  font-size: $font-size-small
   color: $color-primary
   +font-mono
 
@@ -102,7 +104,7 @@ em
   font-style: italic
   font-variant-ligatures: contextual
   font-feature-settings: "calt" 1
-  +font-system
+  //+font-system
 
 time
   +font-mono

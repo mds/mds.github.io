@@ -242,6 +242,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
+	"\/assets\/css\/sass\/components\/_announcement.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/sass\/components\/_announcement.sass",
+		"outputAbbreviatedPath": "\/assets\/css\/sass\/css\/_announcement.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
 	"\/assets\/css\/sass\/components\/_background.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -251,6 +267,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/css\/sass\/components\/_background.sass",
 		"outputAbbreviatedPath": "\/assets\/css\/sass\/css\/_background.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/assets\/css\/sass\/components\/_book.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/sass\/components\/_book.sass",
+		"outputAbbreviatedPath": "\/assets\/css\/sass\/css\/_book.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -445,9 +477,9 @@
 		"outputAbbreviatedPath": "\/assets\/css\/screen.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
-		"shouldRunBless": 0,
+		"shouldRunBless": 1,
 		"useLibsass": false
 		},
 	"\/assets\/css\/sass\/vendor\/_floatl.sass": {
@@ -513,6 +545,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/js\/confetti.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/assets\/js\/confetti.js",
+		"outputAbbreviatedPath": "\/assets\/js\/min\/confetti-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/assets\/js\/floatl.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -568,12 +611,34 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/assets\/js\/Physics2DPlugin.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/Physics2DPlugin.min.js",
+		"outputAbbreviatedPath": "\/assets\/js\/min\/Physics2DPlugin.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/assets\/js\/sketch.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/js\/sketch.js",
 		"outputAbbreviatedPath": "\/assets\/js\/min\/sketch-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/js\/TweenLite.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/js\/TweenLite.min.js",
+		"outputAbbreviatedPath": "\/assets\/js\/min\/TweenLite.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -595,6 +660,24 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/blog\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/books\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/books\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/index-older.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index-older.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

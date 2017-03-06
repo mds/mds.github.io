@@ -9,9 +9,8 @@ $btn-width: 100 - ( ($name-width + $email-width) + ($field-margin*2) )
   background-color: $color-background
 
   a
-    color: inherit
-    font-style: italic
-    // font-size: $font-size-xsmall
+    color: $color-white
+    border: none
     +font-mono
 
 .form
@@ -133,6 +132,7 @@ button, .cta-primary-email
   -webkit-appearance: none
   -moz-appearance: none
   appearance: none
+  +font-regular
   +easeall
 
   &:before

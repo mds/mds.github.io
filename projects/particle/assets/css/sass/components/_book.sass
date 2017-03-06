@@ -1,0 +1,160 @@
+$book-width: 200px
+$book-height: 260px
+
+.book 
+  display: block
+  float: left
+  width: $book-width/2
+  height: $book-height/2
+  margin: 0
+  padding: 0
+  background: #333
+  transform: translate3d(0,0,0)
+  margin: 0 0 1rem .875rem
+
+  +breakpoint-medium
+    width: $book-width
+    height: $book-height
+    margin: 0 0 1.75rem 1rem
+
+  +breakpoint-xlarge
+    margin: 0 0 2.75rem 2.5rem
+
+.book ul 
+  display: block
+  position: relative
+  width: $book-width/2
+  height: $book-height/2
+  margin: 0px
+  padding: 0
+  list-style: none
+  perspective-origin: 0 50% 0
+  perspective: 800px
+  -webkit-transform: translate3d(0,0,0)
+  background-color: $color-white
+
+  +breakpoint-medium
+    width: $book-width
+    height: $book-height
+
+.book ul>li
+  display: block
+  position: absolute
+  left: 0
+  top: 0
+  width: $book-width/2
+  height: $book-height/2
+  padding: 0
+  margin: 0
+  background-color: $color-medium-grey
+  transform-origin: 0 50% 0
+  transform-style: preserve-3d
+  transition: all .375s cubic-bezier(0.25,1,.25,1)
+  border-radius: 1px
+
+  +breakpoint-medium
+    width: $book-width
+    height: $book-height
+
+.book img
+  margin: 0
+  border-radius: 1px
+
+.cover 
+  z-index: 2 !important
+  display: block
+  width: $book-width/2
+  height: $book-height/2
+  transform: rotateY(0deg) translateZ(0px)
+  box-shadow: 0 1px 2px 0 rgba($color-black, .2)
+
+  +breakpoint-medium
+    width: $book-width
+    height: $book-height
+
+  &:before
+    content: " "
+    display: block
+    width: 100%
+    height: 100%
+    position: absolute
+    background: rgba($color-white, 0)
+    background-image: linear-gradient(45deg, rgba($color-black, .1) 0%, rgba($color-black, 0) 100%)
+    transition: all .375s cubic-bezier(0.25,1,.25,1)
+    border-radius: 1px
+    opacity: .1
+
+.book:hover .cover:before
+  opacity: 1
+  box-shadow: inset -2px 0 1px 0 rgba($color-black, .1)
+
+.book .page 
+  margin: 4px 0 0 2px
+  width: $book-width/2 - 2px
+  height: $book-height/2 - 8px
+  box-shadow: 1px 3px 3px 0 rgba($color-black, .1), inset -1px 3px 2px 0 $color-white
+  background-image: linear-gradient(45deg, rgba($color-black, 0) 0%, rgba($color-black, .1) 100%)
+  opacity: 0
+
+  +breakpoint-medium
+    width: $book-width - 2px
+    height: $book-height - 8px
+
+.back-cover
+  z-index: 0 !important
+  display: block
+  width: $book-width/2 - 2px 
+  height: $book-height/2 - 2px
+  background: #cccccd !important
+  transform: rotateY(0deg) translateZ(0px)
+  box-shadow: none
+
+  +breakpoint-medium
+    width: $book-width - 2px
+    height: $book-height - 2px
+
+.page1 
+  display: none
+  transform: rotateY(20deg) translateZ(-1px)
+
+.page2 
+  display: none
+  transform: rotateY(30deg) translateZ(-2px)
+
+.page3 
+  display: none
+  transform: rotateY(40deg) translateZ(-3px)
+
+.book:hover .cover 
+  transform: rotateY(-38deg)
+
+.book:hover .page
+  opacity: 1
+
+.book:hover .page1 
+  transform: rotateY(-36deg)
+
+.book:hover .page2 
+  transform: rotateY(-34deg)
+
+.book:hover .page3 
+  transform: rotateY(-32deg)
+
+.book:hover .page4 
+  transform: rotateY(-30deg)
+
+.book:hover .page5 
+  transform: rotateY(-28deg)
+
+.book:hover .page6 
+  transform: rotateY(-26deg)
+
+.book:hover .back-cover
+  width: $book-width/2 + 2px
+  transform: rotateY(-24deg)
+  box-shadow: inset -2px 0 1px 0 rgba($color-black, .1)//, 10px 10px 40px rgba($color-black, .1)
+
+  +breakpoint-medium
+    width: $book-width + 2px
+
+
