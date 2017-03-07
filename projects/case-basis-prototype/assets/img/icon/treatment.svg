@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/treatment</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" fill-opacity="0" stroke-linejoin="round">
+        <g id="icon/treatment" stroke="#D67D00" fill="#FFFFFF">
+            <g id="health-24px-outline_hospital-34" transform="translate(1.000000, 1.000000)">
+                <g id="Group" transform="translate(0.478261, 0.478261)">
+                    <circle id="Oval" cx="10.5217391" cy="10.5217391" r="10.5217391"></circle>
+                    <polygon id="Shape" points="16.2608696 8.60869565 12.4347826 8.60869565 12.4347826 4.7826087 8.60869565 4.7826087 8.60869565 8.60869565 4.7826087 8.60869565 4.7826087 12.4347826 8.60869565 12.4347826 8.60869565 16.2608696 12.4347826 16.2608696 12.4347826 12.4347826 16.2608696 12.4347826"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,859 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Prototype" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <title>Prototype</title> 
+    <link rel="stylesheet" href="assets/css/screen.css">
+  </head>
+  <body>
+    <section class="home">
+
+      <!-- annotation -->
+      <div class="annotation">
+        <h2>ACTIONS</h2>
+        <br>
+        <h2>Action 1 - External</h2>
+        <p>Links to something outside of the app. Eg. Google Maps</p>
+        <h2>Action 2 - Modal Launch</h2>
+        <p>Launches a modal—usually a form–where a user must decide to cancel the transaction or save new information</p>
+        <h2>Action 3 - Status Update</h2>
+        <p>Creates a status update "stamp" on the messages timeline</p>
+        <h2>Action 4 - Drilldown</h2>
+        <p>Links to a detail view of specific information. Return to main section via "Back" button</p>
+        <h2>Action 4.1 - Drilldown + Signature</h2>
+        <p>Inclusion of an embedded client signature. Used to represent signed documents</p>
+      </div><!-- /end annotation -->
+
+      <!-- time -->
+      <time>September 12, 2017 <span>3:30 PM</span></time>
+
+      <!-- message from firm -->
+      <div class="message message-firm">
+        <img class="avatar" src="assets/img/avatar-amanda.png" alt="avatar" />
+        <div class="blob">
+          <h2>Amanda Moon</h2>
+          <p>Hi Mr. Butler. Welcome to Case Basis.</p>
+          <p>Throughout your case, we'll use this app to keep you up to date on the status of your case.</p>
+          <p>From time to time, we'll remind you of some tasks to accomplish. Sound good?</p>
+        </div>
+        <a class="action action-has-arrow" href="#">
+          <img src="assets/img/icon/complete.svg" class="svg" alt="pdf" />
+          <h3>Tap to complete</h3>
+          <h4>Sample task</h4>
+        </a>
+      </div><!-- /end message from firm -->
+
+      <!-- time -->
+      <time>September 12, 2017 <span>5:30 PM</span></time>
+
+      <!-- action from user -->
+      <div class="message message-user">
+        <div class="blob">
+          <h2>Donald Butler completed the <strong>Sample task</strong></h2>
+        </div>
+        <a class="action action-record action-has-arrow" href="#">
+          <img src="assets/img/icon/appointment.svg" class="svg" alt="pdf" />
+          <h3>Completed</h3>
+          <h4>Sample task</h4>
+        </a>
+      </div><!-- /end action from user -->
+
+      <!-- message from firm -->
+      <div class="message message-firm">
+        <img class="avatar" src="assets/img/avatar-amanda.png" alt="avatar" />
+        <div class="blob">
+          <h2>Amanda Moon</h2>
+          <p>Nice job, Donald. You'll be hearing from us very soon.</p>
+        </div>
+      </div><!-- /end message from firm -->
+
+      <!-- time -->
+      <time>Wednesday <span>10:30 AM</span></time>
+
+      <!-- message from firm -->
+      <div class="message message-firm">
+        <img class="avatar" src="assets/img/avatar-amanda.png" alt="avatar" />
+        <div class="blob">
+          <h2>Amanda Moon</h2>
+          <p>You have an appointment for your initial treatment with Pidcock Chiropractic on Friday, Sept. 22, 2017 at 2:00 PM</p>
+        </div>
+      </div><!-- /end message from firm -->
+
+      <!-- time -->
+      <time>Thursday <span>10:35 AM</span></time>
+
+      <!-- annotation -->
+      <div class="annotation">
+        <p>We may want to consider key words to look out for sent from the user that could either trigger an automated response, or urge them to set a call appointment.</p>
+      </div><!-- /end annotation -->
+
+      <!-- message from user -->
+      <div class="message message-user">
+        <div class="blob">
+          <h2>Donald Butler</h2>
+          <p>Thank you</p>
+        </div>
+      </div><!-- /end message from user -->
+
+      <!-- time -->
+      <time>Wednesday <span>1:00 PM</span></time>
+
+      <!-- annotation -->
+      <div class="annotation">
+        <h2>Action 1 - External</h2>
+        <p>External actions link to something outside of the app (eg. google maps for "get directions").</p>
+      </div><!-- /end annotation -->
+
+      <!-- message from firm -->
+      <div class="message message-firm">
+        <img class="avatar" src="assets/img/avatar-amanda.png" alt="avatar" />
+        <div class="blob">
+          <h2>Amanda Moon</h2>
+          <p>Hi Mr. Butler, your appointment with Pidcock Chiropractic is in one hour.</p>
+          <p>Directions below.</p>
+        </div>
+        <a class="action action-has-external" href="#">
+          <img src="assets/img/icon/pin.svg" class="svg" alt="pdf" />
+          <h3>Get Directions</h3>
+          <h4>Pidcock Chiropractic</h4>
+        </a>
+      </div><!-- /end message from firm -->
+
+      <!-- message from user -->
+      <div class="message message-user">
+        <div class="blob">
+          <h2>Donald Butler</h2>
+          <p>Can you call a taxi for me?</p>
+        </div>
+      </div><!-- /end message from user -->
+
+      <!-- message from firm -->
+      <div class="message message-firm">
+        <img class="avatar" src="assets/img/avatar-amanda.png" alt="avatar" />
+        <div class="blob">
+          <h2>Amanda Moon</h2>
+          <p>Sure thing. Are you at your house?</p>
+        </div>
+      </div><!-- /end message from firm -->
+
+      <!-- message from user -->
+      <div class="message message-user">
+        <div class="blob">
+          <h2>Donald Butler</h2>
+          <p>Yep!</p>
+        </div>
+      </div><!-- /end message from user -->
+
+      <!-- message from firm -->
+      <div class="message message-firm">
+        <img class="avatar" src="assets/img/avatar-amanda.png" alt="avatar" />
+        <div class="blob">
+          <h2>Amanda Moon</h2>
+          <p>A car is on its way.</p>
+        </div>
+      </div><!-- /end message from firm -->
+
+      <!-- time -->
+      <time>Wednesday <span>3:30 PM</span></time>
+
+      <!-- annotation -->
+      <div class="annotation">
+        <h2>Action 2 – Modal Launch</h2>
+        <p>"I've scheduled a new appointment" – would launch the New Appointment modal. User can cancel or save the new appointment.</p>
+        <h2>Action 3 – Status Update</h2>
+        <p>"I've completed treatment" immediately adds a status message to the timeline (with "undo" as an option). This particular action would initiate the Evidence Phase.</p>
+      </div><!-- /end annotation -->
+
+      <!-- message from firm -->
+      <div class="message message-firm">
+        <img class="avatar" src="assets/img/avatar-amanda.png" alt="avatar" />
+        <div class="blob">
+          <h2>Amanda Moon</h2>
+          <p>Please let us know the status of your treatment.</p>
+        </div>
+        <a class="action" href="#">
+          <img src="assets/img/icon/appointment.svg" class="svg" alt="pdf" />
+          <h3>I've scheduled a new appointment</h3>
+        </a>
+        <a class="action" href="#">
+          <img src="assets/img/icon/complete.svg" class="svg" alt="pdf" />
+          <h3>I've completed my treatement</h3>
+        </a>
+      </div><!-- /end message from firm -->
+
+      <!-- status -->
+      <div class="status">
+        <time>Wednesday <span>4:30 PM</span></time>
+        <p>No status update provided since last appointment.</p>
+      </div><!-- /end status -->
+
+      <!-- message from firm -->
+      <div class="message message-firm">
+        <img class="avatar" src="assets/img/avatar-amanda.png" alt="avatar" />
+        <div class="blob">
+          <h2>Amanda Moon</h2>
+          <p>It's critical to the case that you keep us updated on your treatement status.</p>
+        </div>
+        <a class="action" href="#">
+          <img src="assets/img/icon/appointment.svg" class="svg" alt="pdf" />
+          <h3>I've scheduled a new appointment</h3>
+        </a>
+        <a class="action" href="#">
+          <img src="assets/img/icon/complete.svg" class="svg" alt="pdf" />
+          <h3>I've completed my treatement</h3>
+        </a>
+      </div><!-- /end message from firm -->
+
+      <!-- time -->
+      <time>Friday <span>10:00 PM</span></time>
+
+      <!-- annotation -->
+      <div class="annotation">
+        <h2>Action 4 - Drilldown</h2>
+        <p>Drilldowns link to a new screen with a back button for returning to the main messages section.</p>
+      </div><!-- /end annotation -->
+
+      <!-- action from user -->
+      <div class="message message-user">
+        <div class="blob">
+          <h2>Donald Butler added a <strong>Treatment Appointment</strong></h2>
+        </div>
+        <a class="action action-record action-has-arrow" href="#">
+          <img src="assets/img/icon/appointment.svg" class="svg" alt="pdf" />
+          <h3>Pidcock Chiropractic</h3>
+          <h4>Friday, Set. 25 2017 2:30 PM</h4>
+        </a>
+      </div><!-- /end action from user -->
+
+      <!-- time -->
+      <time>Friday <span>4:00 PM</span></time>
+
+      <!-- message from firm -->
+      <div class="message message-firm">
+        <img class="avatar" src="assets/img/avatar-amanda.png" alt="avatar" />
+        <div class="blob">
+          <h2>Amanda Moon</h2>
+          <p>Hi Mr. Butler. You have an appointment with Pidcock Chiropractic today at 3:00 PM</p>
+        </div>
+      </div><!-- /end message from firm -->
+
+      <!-- time -->
+      <time>Friday <span>4:00 PM</span></time>
+
+      <!-- annotation -->
+      <div class="annotation">
+        <h2>Action 2 – Modal Launch</h2>
+        <p>Record a Treatment log would a launch a modal of the New Treatment Log form.</p>
+      </div><!-- /end annotation -->
+
+      <!-- message from firm -->
+      <div class="message message-firm">
+        <img class="avatar" src="assets/img/avatar-amanda.png" alt="avatar" />
+        <div class="blob">
+          <h2>Amanda Moon</h2>
+          <p>It's been 3 days since you've recorded a treatment log. Please let us know how you're doing.</p>
+        </div>
+        <a class="action" href="#">
+          <img src="assets/img/icon/treatment.svg" class="svg" alt="pdf" />
+          <h3>Record a Treatment Log</h3>
+          <h4>How have you been feeling?</h4>
+        </a>
+      </div><!-- /end message from firm -->
+
+
+      <!-- time -->
+      <time>September 25, 2017 <span>3:30 PM</span></time>
+
+      <!-- annotation -->
+      <div class="annotation">
+        <h2>Action 4 - Drilldown</h2>
+        <p>Drills down to a view of the treatment log. We can show the first line and truncate after 24~ characters.</p>
+      </div><!-- /end annotation -->
+
+      <!-- action from user -->
+      <div class="message message-user">
+        <div class="blob">
+          <h2>Donald Butler recorded a <strong>Treatment Log</strong></h2>
+        </div>
+        <a class="action action-record action-has-arrow" href="#">
+          <img src="assets/img/icon/treatment.svg" class="svg" alt="pdf" />
+          <h3>My back has been hurting...</h3>
+          <h4>Friday, Set. 25 2017 2:30 PM</h4>
+        </a>
+      </div><!-- /end action from user -->
+
+      <!-- status -->
+      <div class="status">
+        <time>Wednesday <span>4:30 PM</span></time>
+        <p>Donald Butler has completed treatment. <a href="#">Undo</a></p>
+      </div><!-- /end status -->
+
+      <!-- annotation -->
+      <div class="annotation">
+        <p>Large visual block for a Phase change. The idea is that scrolling back through the feed very quickly, a client can easily see when the message timeline changed phases in case they need to look back for information.</p>
+      </div><!-- /end annotation -->
+
+      <!-- ///////////////////////////////////////////////////////////////////////////// -->
+      <!-- ///////////////////////////////////////////////////////////////////////////// -->
+      <!-- ///////////////////////////////////////////////////////////////////////////// -->
+      <!-- message from firm -->
+      <div class="announcement">
+        <h2><span>You are now in the</span>Evidence Phase</h2>
+      </div><!-- /end message from firm -->
+      <!-- ///////////////////////////////////////////////////////////////////////////// -->
+      <!-- ///////////////////////////////////////////////////////////////////////////// -->
+      <!-- ///////////////////////////////////////////////////////////////////////////// -->
+
+      <!-- annotation -->
+      <div class="annotation">
+        <p>One possible way to keep the phase videos in the timeline.</p>
+        <p>I'm thinking it will make more sense to have messages that coincide with takeovers, instead of having the same text verbatim in both instances.</p>
+      </div><!-- /end annotation -->
+
+      <!-- message from firm -->
+      <div class="message message-firm">
+        <img class="avatar" src="assets/img/avatar-austin.png" alt="avatar" />
+        <div class="blob">
+          <h2>Austin Jackson</h2>
+          <p>During this phase we'll collect evidence to build your case. Watch the video below for more info.</p>
+          <p class="media">
+            <img class="play-btn" src="assets/img/play-btn.svg" alt="play button" />
+            <img src="assets/img/video-placeholder.png" alt="evidence video" />
+          </p>
+          <p>You can check on the status in the Evidence tab below.</p>
+        </div>
+      </div><!-- /end message from firm -->
+
+      <!-- message from user -->
+      <div class="message message-user">
+        <div class="blob">
+          <h2>Donald Butler</h2>
+          <p>great, thanks</p>
+        </div>
+      </div><!-- /end message from user -->
+
+      <!-- time -->
+      <time>September 30, 2017 <span>3:30 PM</span></time>
+
+      <!-- annotation -->
+      <div class="annotation">
+        <p>Messages letting the client know that pieces of evidence have been found. We may consider adding placeholder messages like "We're still working on gathering evidence, thanks for you patience."</p>
+        <p>Especially if the time during the evidence phase is lengthy.</p>
+      </div><!-- /end annotation -->
+
+      <!-- message from firm -->
+      <div class="message message-firm">
+        <img class="avatar" src="assets/img/avatar-amanda.png" alt="avatar" />
+        <div class="blob">
+          <h2>Amanda Moon</h2>
+          <p>Hi Mr. Butler, we've collected the Accident Report.</p>
+          <p>We'll keep you up to date on the rest of the evidence.</p>
+        </div>
+      </div><!-- /end message from firm -->
+
+      <!-- time -->
+      <time>October 03, 2017 <span>3:30 PM</span></time>
+
+      <!-- message from firm -->
+      <div class="message message-firm">
+        <img class="avatar" src="assets/img/avatar-amanda.png" alt="avatar" />
+        <div class="blob">
+          <h2>Amanda Moon</h2>
+          <p>We now have the Record and Bill from University Hospital.</p>
+        </div>
+      </div><!-- /end message from firm -->
+
+      <!-- time -->
+      <time>October 07, 2017 <span>3:30 PM</span></time>
+
+      <!-- message from firm -->
+      <div class="message message-firm">
+        <img class="avatar" src="assets/img/avatar-amanda.png" alt="avatar" />
+        <div class="blob">
+          <h2>Amanda Moon</h2>
+          <p>We've received the Record and Bill from Dr. West.</p>
+        </div>
+      </div><!-- /end message from firm -->
+
+      <!-- time -->
+      <time>October 10, 2017 <span>10:15 AM</span></time>
+
+      <!-- message from firm -->
+      <div class="message message-firm">
+        <img class="avatar" src="assets/img/avatar-amanda.png" alt="avatar" />
+        <div class="blob">
+          <h2>Amanda Moon</h2>
+          <p>We've received the Record and Bill from Dr. Pidcock.</p>
+        </div>
+      </div><!-- /end message from firm -->
+
+      <!-- time -->
+      <time>October 15, 2017 <span>3:30 PM</span></time>
+
+      <!-- ///////////////////////////////////////////////////////////////////////////// -->
+      <!-- ///////////////////////////////////////////////////////////////////////////// -->
+      <!-- ///////////////////////////////////////////////////////////////////////////// -->
+      <!-- message from firm -->
+      <div class="announcement">
+        <h2><span>You are now in the</span>Demand Phase</h2>
+      </div><!-- /end message from firm -->
+      <!-- ///////////////////////////////////////////////////////////////////////////// -->
+      <!-- ///////////////////////////////////////////////////////////////////////////// -->
+      <!-- ///////////////////////////////////////////////////////////////////////////// -->
+
+      <!-- message from firm -->
+      <div class="message message-firm">
+        <img class="avatar" src="assets/img/avatar-austin.png" alt="avatar" />
+        <div class="blob">
+          <h2>Austin Jackson</h2>
+          <p>We have everything we need to begin writing your demand letter.</p>
+          <p>This process may take up to 30 days to complete. When we have your demand letter ready, we will schedule a phone call to discuss.</p>
+        </div>
+      </div><!-- /end message from firm -->
+
+      <!-- time -->
+      <time>October 17, 2017 <span>3:30 PM</span></time>
+
+      <!-- message from firm -->
+      <div class="message message-firm">
+        <img class="avatar" src="assets/img/avatar-amanda.png" alt="avatar" />
+        <div class="blob">
+          <h2>Amanda Moon</h2>
+          <p>Thanks for you patience, Mr. Butler. We're still working on your Demand and will be in touch as soon as it's ready.</p>
+        </div>
+      </div><!-- /end message from firm -->
+
+      <!-- time -->
+      <time>October 25, 2017 <span>3:30 PM</span></time>
+
+      <!-- message from firm -->
+      <div class="message message-firm">
+        <img class="avatar" src="assets/img/avatar-amanda.png" alt="avatar" />
+        <div class="blob">
+          <h2>Amanda Moon</h2>
+          <p>Hi Mr. Butler. Your demand letter is nearly finished. We'll contact you soon to setup a phone call to discuss.</p>
+        </div>
+      </div><!-- /end message from firm -->
+
+      <!-- time -->
+      <time>October 31, 2017 <span>3:30 PM</span></time>
+
+      <!-- annotation -->
+      <div class="annotation">
+        <h2>Action 2 – Modal Launch</h2>
+        <p>"Schedule a Call" – would launch the New Appointment modal. User can cancel or save the new appointment.</p>
+      </div><!-- /end annotation -->
+
+      <!-- message from firm -->
+      <div class="message message-firm">
+        <img class="avatar" src="assets/img/avatar-austin.png" alt="avatar" />
+        <div class="blob">
+          <h2>Austin Jackson</h2>
+          <p>Hi Mr. Butler. Your demand letter is ready. Please schedule a call to discuss to specifics.</p>
+        </div>
+        <a class="action" href="#">
+          <img src="assets/img/icon/contact.svg" class="svg" alt="pdf" />
+          <h3>Schedule a Call</h3>
+          <h4>Discuss Demand Letter</h4>
+        </a>
+      </div><!-- /end message from firm -->
+
+      <!-- annotation -->
+      <div class="annotation">
+        <h2>Action 4 - Drilldown</h2>
+        <p>"Call with Austin" drills down to a detail view of the event</p>
+      </div><!-- /end annotation -->
+
+      <!-- action from user -->
+      <div class="message message-user">
+        <div class="blob">
+          <h2>Donald Butler has scheduled an <strong>Appointment</strong></h2>
+        </div>
+        <a class="action action-record action-has-arrow" href="#">
+          <img src="assets/img/icon/contact.svg" class="svg" alt="pdf" />
+          <h3>Call with Austin</h3>
+          <h4>Friday, Nov. 3 2017 3:30 PM</h4>
+        </a>
+      </div><!-- /end action from user -->
+
+      <!-- time -->
+      <time>November 3, 2017 <span>4:00 PM</span></time>
+
+      <!-- annotation -->
+      <div class="annotation">
+        <h2>Action 4 - Drilldown</h2>
+        <p>All signature requests would drill down to the legal text. Back button available to return to messages. Sign document action on detail screen would launch signature modal.</p>
+      </div><!-- /end annotation -->
+
+      <!-- message from firm -->
+      <div class="message message-firm">
+        <img class="avatar" src="assets/img/avatar-austin.png" alt="avatar" />
+        <div class="blob">
+          <h2>Austin Jackson</h2>
+          <p>Per our conversation, you've given Jackson Law Offices permission to demand <strong>$32,000.00</strong> to resolve your claim.</p>
+          <p>Please view and sign this document to authorize the Demand amount.</p>
+        </div>
+        <a class="action action-has-arrow" href="#">
+          <img src="assets/img/icon/record.svg" class="svg" alt="pdf" />
+          <h3>Demand Consent</h3>
+          <h4>Signature required</h4>
+        </a>
+      </div><!-- /end message from firm -->
+
+      <!-- message from user -->
+      <div class="message message-user">
+        <div class="blob">
+          <h2>Donald Butler</h2>
+          <p>Thank you. I'll sign this right away.</p>
+        </div>
+      </div><!-- /end message from user -->    
+
+      <!-- annotation -->
+      <div class="annotation">
+        <h2>Action 4.1 - Drilldown + Signature</h2>
+        <p>Drills down to a signed version of a legal document</p>
+        <p>If the signed document is turned into a viewable PDF, then we should use the PDF icon (as shown).</p>
+        <p>Otherwise we should use the "record" icon.</p>
+      </div><!-- /end annotation -->
+
+      <!-- action from user -->
+      <div class="message message-user">
+        <div class="blob">
+          <h2>Donald Butler signed the<strong>Demand Consent</strong></h2>
+        </div>
+        <a class="action action-record action-has-arrow-signature" href="#">
+          <div class="signature">
+            <img src="assets/img/signature.png" class="signature" alt="signature" />
+          </div>
+          <img src="assets/img/icon/pdf.svg" class="svg" alt="pdf" />
+          <h3>Demand Consent</h3>
+          <h4>Executed</h4>
+        </a>
+      </div><!-- /end action from user -->
+
+      <!-- message from firm -->
+      <div class="message message-firm">
+        <img class="avatar" src="assets/img/avatar-austin.png" alt="avatar" />
+        <div class="blob">
+          <h2>Austin Jackson</h2>
+          <p>Thank you. Your demand letter is on its way. We’ll let you know when the defendant's insurance company has received it.</p>
+        </div>
+      </div><!-- /end message from firm -->
+
+      <!-- time -->
+      <time>November 5, 2017 <span>3:30 PM</span></time>
+
+      <!-- message from firm -->
+      <div class="message message-firm">
+        <img class="avatar" src="assets/img/avatar-austin.png" alt="avatar" />
+        <div class="blob">
+          <h2>Austin Jackson</h2>
+          <p>Your demand letter was received on November 5, 2017 and the deadline for response is December 5, 2017.</p>
+          <p>We'll contact you as soon as we have a response.</p>
+        </div>
+      </div><!-- /end message from firm -->
+
+      <!-- time -->
+      <time>November 8, 2017 <span>3:30 PM</span></time>
+
+      <!-- message from firm -->
+      <div class="message message-firm">
+        <img class="avatar" src="assets/img/avatar-amanda.png" alt="avatar" />
+        <div class="blob">
+          <h2>Amanda Moon</h2>
+          <p>Thanks again for your patience, Mr. Butler. We'll let you know as soon as the defendant responds to the Demand.</p>
+        </div>
+      </div><!-- /end message from firm -->
+
+      <!-- time -->
+      <time>November 15, 2017 <span>3:30 PM</span></time>
+
+      <!-- message from firm -->
+      <div class="message message-firm">
+        <img class="avatar" src="assets/img/avatar-austin.png" alt="avatar" />
+        <div class="blob">
+          <h2>Austin Jackson</h2>
+          <p>We’ve received a settlement offer! Let’s schedule a phone call to discuss.</p>
+        </div>
+        <a class="action" href="#">
+          <img src="assets/img/icon/contact.svg" class="svg" alt="pdf" />
+          <h3>Schedule a Call</h3>
+          <h4>Settlement Discussion</h4>
+        </a>
+      </div><!-- /end message from firm -->
+
+      <!-- action from user -->
+      <div class="message message-user">
+        <div class="blob">
+          <h2>Donald Butler has scheduled an <strong>Appointment</strong></h2>
+        </div>
+        <a class="action action-record action-has-arrow" href="#">
+          <img src="assets/img/icon/contact.svg" class="svg" alt="pdf" />
+          <h3>Call with Austin</h3>
+          <h4>Friday, Nov. 16 2017 3:30 PM</h4>
+        </a>
+      </div><!-- /end action from user -->
+
+      <!-- time -->
+      <time>November 17, 2017 <span>3:30 PM</span></time>
+
+      <!-- ///////////////////////////////////////////////////////////////////////////// -->
+      <!-- ///////////////////////////////////////////////////////////////////////////// -->
+      <!-- ///////////////////////////////////////////////////////////////////////////// -->
+      <!-- message from firm -->
+      <div class="announcement">
+        <h2><span>You are now in the</span>Negotiation Phase</h2>
+      </div><!-- /end message from firm -->
+      <!-- ///////////////////////////////////////////////////////////////////////////// -->
+      <!-- ///////////////////////////////////////////////////////////////////////////// -->
+      <!-- ///////////////////////////////////////////////////////////////////////////// -->  
+
+      <!-- time -->
+      <time>November 17, 2017 <span>3:30 PM</span></time>
+
+      <!-- message from firm -->
+      <div class="message message-firm">
+        <img class="avatar" src="assets/img/avatar-austin.png" alt="avatar" />
+        <div class="blob">
+          <h2>Austin Jackson</h2>
+          <p>The defendant's insurance company has offered $8,000 to settle. Per our conversation, confirm Jackson Law Offices has your authority to settle the case for <strong>$14,000</strong>.</p>
+          <p>Please view and sign this document to authorize the Demand amount.</p>
+        </div>
+        <a class="action action-has-arrow" href="#">
+          <img src="assets/img/icon/record.svg" class="svg" alt="pdf" />
+          <h3>Demand Consent</h3>
+          <h4>Signature Required</h4>
+        </a>
+      </div><!-- /end message from firm -->
+
+      <!-- action from user -->
+      <div class="message message-user">
+        <div class="blob">
+          <h2>Donald Butler signed the <strong>Authority to Settle</strong></h2>
+        </div>
+        <a class="action action-record action-has-arrow" href="#">
+          <div class="signature">
+            <img src="assets/img/signature.png" class="signature" alt="signature" />
+          </div>
+          <img src="assets/img/icon/pdf.svg" class="svg" alt="pdf" />
+          <h3>Authority to Settle</h3>
+          <h4>Executed</h4>
+        </a>
+      </div><!-- /end action from user -->
+
+      <!-- time -->
+      <time>November 17, 2017 <span>3:30 PM</span></time>
+
+      <!-- annotation -->
+      <div class="annotation">
+        <h2>Action 4 - Drilldown</h2>
+        <p>Al "Negotation status" updates would drill down to view the negotiation timeline.</p>
+      </div><!-- /end annotation -->
+
+      <!-- message from firm -->
+      <div class="message message-firm">
+        <img class="avatar" src="assets/img/avatar-austin.png" alt="avatar" />
+        <div class="blob">
+          <h2>Austin Jackson</h2>
+          <p>Thanks Donald. We sent our initial demand for <strong>$32,000</strong>.</p>
+          <p>The defendant countered with $8,000.</p>
+          <p>Below you can keep track of our negotiation process.</p>
+        </div>
+        <a class="action action-has-arrow" href="#">
+          <img src="assets/img/icon/refresh.svg" class="svg" alt="pdf" />
+          <h3>Negotation Status</h3>
+          <h4>In-progress</h4>
+        </a>
+      </div><!-- /end message from firm -->
+
+      <!-- time -->
+      <time>November 20, 2017 <span>3:30 PM</span></time>
+
+      <!-- message from firm -->
+      <div class="message message-firm">
+        <img class="avatar" src="assets/img/avatar-austin.png" alt="avatar" />
+        <div class="blob">
+          <h2>Austin Jackson</h2>
+          <p>We sent a 2nd demand for <strong>$26,000</strong>.</p>
+        </div>
+        <a class="action action-has-arrow" href="#">
+          <img src="assets/img/icon/refresh.svg" class="svg" alt="pdf" />
+          <h3>Negotation Status</h3>
+          <h4>In-progress</h4>
+        </a>
+      </div><!-- /end message from firm -->
+
+      <!-- time -->
+      <time>November 22, 2017 <span>3:30 PM</span></time>
+
+      <!-- message from firm -->
+      <div class="message message-firm">
+        <img class="avatar" src="assets/img/avatar-austin.png" alt="avatar" />
+        <div class="blob">
+          <h2>Austin Jackson</h2>
+          <p>We've received the 2nd counter from the defendant for $10,000.</p>
+        </div>
+        <a class="action action-has-arrow" href="#">
+          <img src="assets/img/icon/refresh.svg" class="svg" alt="pdf" />
+          <h3>Negotation Status</h3>
+          <h4>In-progress</h4>
+        </a>
+      </div><!-- /end message from firm -->
+
+      <!-- time -->
+      <time>November 23, 2017 <span>3:30 PM</span></time>
+
+      <!-- message from firm -->
+      <div class="message message-firm">
+        <img class="avatar" src="assets/img/avatar-austin.png" alt="avatar" />
+        <div class="blob">
+          <h2>Austin Jackson</h2>
+          <p>We've sent the 3rd demand for <strong>$22,000</strong>.</p>
+        </div>
+        <a class="action action-has-arrow" href="#">
+          <img src="assets/img/icon/refresh.svg" class="svg" alt="pdf" />
+          <h3>Negotation Status</h3>
+          <h4>In-progress</h4>
+        </a>
+      </div><!-- /end message from firm -->
+
+      <!-- time -->
+      <time>November 25, 2017 <span>3:30 PM</span></time>
+
+      <!-- message from firm -->
+      <div class="message message-firm">
+        <img class="avatar" src="assets/img/avatar-austin.png" alt="avatar" />
+        <div class="blob">
+          <h2>Austin Jackson</h2>
+          <p>We've received the 3rd counter from the defendant for $14,000.</p>
+        </div>
+        <a class="action action-has-arrow" href="#">
+          <img src="assets/img/icon/refresh.svg" class="svg" alt="pdf" />
+          <h3>Negotation Status</h3>
+          <h4>In-progress</h4>
+        </a>
+      </div><!-- /end message from firm -->
+
+      <!-- time -->
+      <time>November 25, 2017 <span>3:30 PM</span></time>
+
+      <!-- message from firm -->
+      <div class="message message-firm">
+        <img class="avatar" src="assets/img/avatar-austin.png" alt="avatar" />
+        <div class="blob">
+          <h2>Austin Jackson</h2>
+          <p>We've sent the 4th demand for <strong>$16,000</strong>.</p>
+        </div>
+        <a class="action action-has-arrow" href="#">
+          <img src="assets/img/icon/refresh.svg" class="svg" alt="pdf" />
+          <h3>Negotation Status</h3>
+          <h4>In-progress</h4>
+        </a>
+      </div><!-- /end message from firm -->
+
+      <!-- time -->
+      <time>November 30, 2017 <span>3:30 PM</span></time>
+
+      <!-- message from firm -->
+      <div class="message message-firm">
+        <img class="avatar" src="assets/img/avatar-austin.png" alt="avatar" />
+        <div class="blob">
+          <h2>Austin Jackson</h2>
+          <p>Good news! The client has accepted the demand at <strong>$16,000</strong>.</p>
+        </div>
+        <a class="action action-has-arrow" href="#">
+          <img src="assets/img/icon/complete.svg" class="svg" alt="pdf" />
+          <h3>Negotation Complete</h3>
+          <h4>Settled at $16,000</h4>
+        </a>
+      </div><!-- /end message from firm -->
+
+      <!-- time -->
+      <time>December 1, 2017 <span>3:30 PM</span></time>
+
+      <!-- ///////////////////////////////////////////////////////////////////////////// -->
+      <!-- ///////////////////////////////////////////////////////////////////////////// -->
+      <!-- ///////////////////////////////////////////////////////////////////////////// -->
+      <!-- message from firm -->
+      <div class="announcement">
+        <h2><span>You are now in the</span>Settlement Phase</h2>
+      </div><!-- /end message from firm -->
+      <!-- ///////////////////////////////////////////////////////////////////////////// -->
+      <!-- ///////////////////////////////////////////////////////////////////////////// -->
+      <!-- ///////////////////////////////////////////////////////////////////////////// -->
+
+      <!-- message from firm -->
+      <div class="message message-firm">
+        <img class="avatar" src="assets/img/avatar-austin.png" alt="avatar" />
+        <div class="blob">
+          <h2>Austin Jackson</h2>
+          <p>Your case has been settled! We will contact you to schedule an appointment when your closing documents are in the office.</p>
+        </div>
+      </div><!-- /end message from firm -->
+
+      <!-- time -->
+      <time>December 2, 2017 <span>3:30 PM</span></time>
+
+      <!-- message from firm -->
+      <div class="message message-firm">
+        <img class="avatar" src="assets/img/avatar-austin.png" alt="avatar" />
+        <div class="blob">
+          <h2>Austin Jackson</h2>
+          <p>Hi Mr. Butler. We've got the closing documents. Please schedule an appointment to complete your case.</p>
+        </div>
+        <a class="action" href="#">
+          <img src="assets/img/icon/appointment.svg" class="svg" alt="pdf" />
+          <h3>Schedule an Appointment</h3>
+          <h4>Settlement Completion</h4>
+        </a>
+      </div><!-- /end message from firm -->
+
+      <!-- action from user -->
+      <div class="message message-user">
+        <div class="blob">
+          <h2>Donald Butler scheduled an <strong>Appointment</strong></h2>
+        </div>
+        <a class="action action-record action-has-arrow" href="#">
+          <img src="assets/img/icon/appointment.svg" class="svg" alt="pdf" />
+          <h3>Jackson Law Offices</h3>
+          <h4>December 4, 2017 2:30 PM</h4>
+        </a>
+      </div><!-- /end action from user -->
+
+      <!-- time -->
+      <time>December 5, 2017 <span>3:30 PM</span></time>
+
+      <!-- annotation -->
+      <div class="annotation">
+        <h2>Action 2 – Modal Launch</h2>
+        <p>"Refer a friend" – would launch the Referral modal. User can cancel or send the referral.</p>
+      </div><!-- /end annotation -->
+
+      <!-- message from firm -->
+      <div class="message message-firm">
+        <img class="avatar" src="assets/img/avatar-austin.png" alt="avatar" />
+        <div class="blob">
+          <h2>Austin Jackson</h2>
+          <p>Your case is closed! Thank you for working with Jackson Law Offices, PC.</p>
+          <p>If you know someone else whose been injured in an accident, we'd love your referral!</p>
+        </div>
+        <a class="action" href="#">
+          <img src="assets/img/icon/complete.svg" class="svg" alt="pdf" />
+          <h3>Refer a friend</h3>
+          <h4>Jackson Law Offices</h4>
+        </a>
+      </div><!-- /end message from firm -->
+
+    </section>
+
+    <!-- this replaces the <img> tag with the <svg> code -->
+    <script type="text/javascript" src="assets/js/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="assets/js/svg-replace.js"></script>
+
+  </body>
+</html>
+
+

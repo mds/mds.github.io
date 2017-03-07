@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="interstitial" transform="translate(-160.000000, -346.000000)">
+            <g transform="translate(8.000000, 86.000000)" id="video">
+                <g transform="translate(84.000000, 234.000000)">
+                    <g id="image">
+                        <g id="Group-2" transform="translate(68.000000, 26.000000)">
+                            <ellipse id="Combined-Shape" fill="#000000" cx="30" cy="30" rx="30" ry="30"></ellipse>
+                            <path d="M26.5174639,20.5253486 C24.5748222,19.4620079 23,20.395221 23,22.6046711 L23,36.9953289 C23,39.2070477 24.5716072,40.1397518 26.5174639,39.0746514 L39.9440746,31.7253486 C41.8867162,30.6620079 41.8899312,28.9397518 39.9440746,27.8746514 L26.5174639,20.5253486 Z" id="play" fill="#FFFFFF"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

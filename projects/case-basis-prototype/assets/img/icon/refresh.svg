@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="21px" viewBox="0 0 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/refresh</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" fill-opacity="0" stroke-linejoin="round">
+        <g id="messages---negotiation" transform="translate(-69.000000, -881.000000)" stroke="#D67D00" fill="#FFFFFF">
+            <g id="PDF" transform="translate(52.000000, 861.000000)">
+                <g id="icon/refresh" transform="translate(17.000000, 20.000000)">
+                    <path d="M0.5,10.5 C0.5,5 5,0.5 10.5,0.5 C14.4,0.5 17.8,2.7 19.4,6" id="Shape"></path>
+                    <path d="M20.5,10.5 C20.5,16 16,20.5 10.5,20.5 C6.6,20.5 3.2,18.3 1.6,15" id="Shape"></path>
+                    <polyline id="Shape" points="20.3 0.2 19.5 6.1 13.5 5.3"></polyline>
+                    <polyline id="Shape" points="0.7 20.8 1.5 14.9 7.5 15.7"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

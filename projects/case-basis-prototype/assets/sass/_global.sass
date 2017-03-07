@@ -1,0 +1,238 @@
+body
+  font-size: 16px
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif
+  background-color: $color-charcoal
+
+.home
+  background-color: $color-background
+  max-width: 375px
+  margin: auto
+  padding: 2rem 0
+
+.annotation
+  float: right
+  margin-right: -250px
+  color: $color-light-grey
+  background-color: #111 
+  font-size: 12px
+  text-align: left
+  width: 200px
+  display: block
+  padding: .75rem
+  border-radius: 6px
+  line-height: 1.25em
+
+  h2
+    font-weight: bold
+    color: $color-white
+    margin-bottom: .25rem
+
+  p:not(:last-of-type) // adds margin if there are more than one paragraphs
+    margin-bottom: 1rem
+
+strong
+  font-weight: bold
+
+.title-bar img
+  max-width: 375px
+  margin-bottom: 2rem
+  position: fixed
+  z-index: 100
+  top: 0
+  opacity: .95
+
+time,
+.blob h2
+  font-size: 11px
+  color: $color-light-grey
+
+time
+  text-align: center
+  display: block
+  margin: 2rem auto
+  font-weight: bold
+
+  span
+    font-weight: normal
+
+.message
+  position: relative
+  margin: 0 .5rem 1rem
+  display: flex
+  flex-direction: row
+  flex-flow: row wrap // allows only the avatar and message to occupy a row
+  align-items: flex-end // aligns avatar with bottom of message <p>
+
+.message .avatar
+  width: 36px
+  height: 36px
+
+.message .blob
+  margin-left: .5rem
+
+.message .blob h2
+  margin-left: .75rem
+  margin-bottom: .25rem
+
+.message p,
+.message .action
+  background-color: $color-message-firm
+  border-radius: 16px
+  font-size: 1rem
+  line-height: 1.25em
+  padding: .75rem
+  max-width: 266px
+  margin-top: .25rem
+
+.message p
+  color: $color-charcoal
+
+.message .action
+  background-color: $color-white
+  box-shadow: inset 0 0 0 .5px $color-light-grey-2
+  position: relative
+
+.message .action
+  color: $color-charcoal
+
+.message .action-record
+  background-color: transparent
+  box-shadow: inset 0 0 0 .5px $color-light-grey-2
+  position: relative
+  color: $color-light-grey
+
+.message p.media
+  padding: 0
+  position: relative
+
+  img
+    width: 288px // this is a hack
+    border-radius: 16px
+
+  .play-btn
+    width: 60px
+    margin: auto
+    position: absolute
+    top: 0
+    left: 24px // not sure why this is offset
+    bottom: 0
+    right: 0  
+
+.message-user
+  justify-content: flex-end //right aligns user 
+
+.message-user .blob h2
+  text-align: right
+  margin-right: 1rem
+
+.message-user p
+  background-color: $color-message-user
+  color: $color-white
+
+.status
+  background-color: transparent
+  font-size: 11px
+  line-height: 1.25em
+  text-align: center
+  color: $color-light-grey
+  padding: 0 3rem 3rem
+  
+  a
+    text-decoration: none
+    color: $color-primary
+
+// Not sure if we need to show an arrow on the actions since most of them will be modals and not drilldowns...
+
+.message .action-has-arrow:after,
+.message .action-has-arrow-signature:after,
+.message .action-has-external:after
+  content: " "
+  background: url("../img/icon/chevron.svg") no-repeat
+  display: block
+  width: 8px
+  height: 13px
+  opacity: .1
+  position: absolute
+  top: 1.55rem
+  right: .75rem
+
+.message .action-has-arrow-signature:after // hacky to get the arrow in the right place for the signature
+  top: 8rem
+
+.message .action-has-external:after
+  background: url("../img/icon/external.svg") no-repeat
+  width: 17px
+  height: 17px
+  background-size: 14px
+  opacity: .2
+
+.message a
+  text-decoration: none
+  font-weight: 600
+  display: block
+  margin-left: 2.75rem
+  width: 100%
+  max-width: 266px
+
+  img, svg // works for <img> or <svg> embed
+    width: 24px
+    height: 24px
+    float: left
+    margin: .5rem .75rem 0 0
+
+  img.signature
+    width: 174px
+    height: auto
+    padding: 0 1rem 1rem
+    float: none
+    border-bottom: none
+
+  h3
+    display: block
+
+  h4
+    color: $color-light-grey
+    font-size: .75rem
+    font-weight: 300
+    display: block
+
+.signature // this is very hacky
+  width: 109%
+  display: block
+  margin: 0 -.75rem .5rem
+  box-shadow: 0 .5px 0 0 $color-light-grey-2
+
+// sets primary color action item icons
+.action svg g,
+.action svg path 
+  stroke: $color-primary
+
+// sets primary color action item icons
+.action-record svg g,
+.action-record svg path 
+  stroke: $color-light-grey
+
+.announcement h2
+  font-size: 1.75rem
+  font-weight: bold
+  line-height: 1em
+  padding: 8rem 0 
+  color: $color-mid
+  background-color: $color-message-firm
+  text-align: center
+  margin: 0 .5rem 2rem
+  border-radius: 16px
+
+  span
+    font-size: 11px
+    font-weight: normal
+    display: block
+  
+
+
+
+
+
+
+
+

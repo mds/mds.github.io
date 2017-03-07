@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/terms</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" fill-opacity="0" stroke-linejoin="round">
+        <g id="icon/terms" stroke="#D67D00" fill="#FFFFFF">
+            <g id="files-24px-outline_single-content-03" transform="translate(3.000000, 2.000000)">
+                <g id="Group" transform="translate(0.476190, 0.478261)">
+                    <rect id="Rectangle-path" x="0.523809524" y="0.52173913" width="16" height="18"></rect>
+                    <path d="M4,5 L13,5" id="Shape"></path>
+                    <path d="M4,9 L13,9" id="Shape"></path>
+                    <path d="M4,13 L7.80952381,13" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

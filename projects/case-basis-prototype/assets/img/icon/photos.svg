@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/photos</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" fill-opacity="0" stroke-linejoin="round">
+        <g id="icon/photos" stroke="#D67D00" fill="#FFFFFF">
+            <g id="media-24px-outline-1_camera-18" transform="translate(2.000000, 3.000000)">
+                <g id="Group">
+                    <path d="M0,16.0081158 C0,17.1082031 0.90234375,18 1.99456145,18 L19.0054385,18 C20.1070044,18 21,17.1066027 21,16.0081158 L21,4.99188419 C21,3.89179693 20.1061002,3 18.9951185,3 L16,3 L14.5571115,0.835667253 C14.2494273,0.374140973 13.5490248,0 13.009222,0 L8.99077797,0 C8.44358641,0 7.75476074,0.367858887 7.4428885,0.835667253 L6,3 L1.99791312,3 C0.894496173,3 0,3.89339733 0,4.99188419 L0,16.0081158 Z" id="Shape"></path>
+                    <circle id="Oval" cx="11" cy="10" r="5"></circle>
+                    <circle id="Oval" fill-rule="nonzero" cx="3" cy="6" r="1"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
