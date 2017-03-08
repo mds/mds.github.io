@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="14px" viewBox="0 0 17 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <rect id="path-1" x="0" y="0" width="3" height="8" rx="1"></rect>
+        <rect id="path-4" x="5" y="0" width="3" height="8" rx="1"></rect>
+        <rect id="path-7" x="10" y="0" width="3" height="8" rx="1"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="outerShadow">
+            <feOffset dx="0" dy="0.5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="innerShadow">
+            <feOffset dx="0" dy="0.5" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.15   0 0 0 0 0.15   0 0 0 0 0.15  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+        <g id="loader-2">
+            <g id="loader" transform="translate(2.000000, 3.000000)">
+                <g id="Rectangle-5">
+                    <use fill="black" fill-opacity="1" filter="url(#outerShadow)" xlink:href="#path-1"></use>
+                    <use fill="none" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#innerShadow)" xlink:href="#path-1"></use>
+
+                    <set attributeName="visibility" attributeType="CSS" to="visible" begin="0s" dur="2s" fill="freeze" />
+                    <animate attributeName="fill" attributeType="CSS"
+                    from="rgb(56, 54, 56)" to="rgb(73, 71, 73)"
+                    begin="0s" dur="2s" fill="freeze" />
+
+                    <!-- <animateTransform 
+                        attributeName="transform"
+                        type="scale"
+                        from="2"
+                        to="1"
+                        begin="0s"
+                        repeatCount="indefinite"
+                        dur="1s"
+                        calcMode="spline"
+                        keySplines="0.15 0.75 0.5 0.5"
+                        keyTimes="0 ; 1"
+                        values="1.1 ; 1">
+                      </animateTransform> -->
+                      
+                </g>
+                <g id="Rectangle-5">
+                    <use fill="black" fill-opacity="1" filter="url(#outerShadow)" xlink:href="#path-4"></use>
+                    <use fill="#383638" fill-rule="evenodd" xlink:href="#path-4"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#innerShadow)" xlink:href="#path-4"></use>
+                </g>
+                <g id="Rectangle-5">
+                    <use fill="black" fill-opacity="1" filter="url(#outerShadow)" xlink:href="#path-7"></use>
+                    <use fill="#383638" fill-rule="evenodd" xlink:href="#path-7"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#innerShadow)" xlink:href="#path-7"></use>
+                </g>
+            </g>
+        </g>
+</svg>
