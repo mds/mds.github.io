@@ -1,0 +1,22 @@
+                                                               
+
+// Add vendor prefixes to keyframes
+=keyframe ($animation-name) 
+  @keyframes #{$animation-name}
+    @content
+
+// @include animation(block-1-animate, $speed, ease-out, infinite)
+=animation ($animation, $duration, $transition, $iteration)
+  animation-name: $animation
+  animation-duration: $duration
+  animation-timing-function: $transition
+  animation-iteration-count: $iteration
+
++keyframe (block-animate)
+  0%
+    opacity: 1
+  100%
+    opacity: 0
+
+
+

@@ -289,6 +289,19 @@
 		"oAP": "\/assets\/sass\/.sass-cache\/04422dd3fbdc411e60ec1ce7eaf73f40d760b878\/screen.sassc",
 		"oF": 0
 		},
+	"\/assets\/sass\/_animation.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/sass\/_animation.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/assets\/sass\/_global.sass": {
 		"aP": 0,
 		"bl": 0,

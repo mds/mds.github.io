@@ -4,30 +4,31 @@ body
   background-color: $color-bg
   padding: 2rem
 
-=loader-style
+.loader > div
+  margin: 1px
+  float: left
   width: 3px
   height: 8px
   border-radius: 2px
   background-color: $color-grey-1
   box-shadow: inset 0 1px 0 rgba($color-grey-2, .5), 0 1px 1px rgba($color-black, .3)
+  animation: block-animate 1s infinite ease-in-out
 
-.loader
-  +loader-style
-  margin: 5px
-  position: relative
+.loader .block1 
+  animation-delay: -1.1s
 
-  &:before,
-  &:after
-    +loader-style
-    content: " "
-    display: block
-    position: absolute
-  
-  &:before
-    left: -5px
+.loader .block2 
+  animation-delay: -1.0s
 
-  &:after
-    left: 5px
-    top: 0
+.loader .block3 
+  animation-delay: -0.9s
+
+@keyframes block-animate
+  0%, 40%, 100%
+    transform: scaleY(1)
+    background-color: $color-grey-1
+  20%
+    transform: scaleY(1.3)
+    background-color: $color-grey-2
 
 
