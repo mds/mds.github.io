@@ -4,5 +4,30 @@ body
   background-color: $color-bg
   padding: 2rem
 
-g
-  fill: $color-grey-2
+=loader-style
+  width: 3px
+  height: 8px
+  border-radius: 2px
+  background-color: $color-grey-1
+  box-shadow: inset 0 1px 0 rgba($color-grey-2, .5), 0 1px 1px rgba($color-black, .3)
+
+.loader
+  +loader-style
+  margin: 5px
+  position: relative
+
+  &:before,
+  &:after
+    +loader-style
+    content: " "
+    display: block
+    position: absolute
+  
+  &:before
+    left: -5px
+
+  &:after
+    left: 5px
+    top: 0
+
+
