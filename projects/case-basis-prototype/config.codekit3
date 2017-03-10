@@ -419,6 +419,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/assets\/sass\/_global-new-action.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/_global-new-action.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/assets\/sass\/_global.sass": {
 		"aP": 0,
 		"bl": 0,
@@ -484,11 +497,35 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/index-orig.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/index-orig.html",
+		"oF": 0
+		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/index.html",
 		"oF": 0
+		},
+	"\/readme.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/readme.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		}
 	},
 "hooks": [
@@ -497,7 +534,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 510249586,
-	"displayValue": "case-basis",
+	"displayValue": "case-basis-prototype",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_green"
 	},
