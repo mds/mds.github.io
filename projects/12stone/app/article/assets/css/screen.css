@@ -1,0 +1,102 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none; }
+
+q:before, q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #EBEAE5;
+  color: #3B3A38; }
+
+.post {
+  background-color: white;
+  max-width: 375px;
+  margin: auto; }
+
+.titlebar {
+  margin-bottom: 1rem;
+  position: fixed;
+  opacity: .95;
+  width: 375px; }
+
+p, ol, ul {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  line-height: 1.5em; }
+
+.post-content {
+  padding: 5rem 1rem 2rem; }
+
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid #EBEAE5;
+  padding: 0 0 1rem 0; }
+
+h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1em;
+  margin-bottom: 1.5rem; }
+
+.post-meta, .post-meta h2 span {
+  padding: .5rem 0 1rem;
+  font-size: .675rem;
+  color: #959388;
+  font-weight: normal; }
+  .post-meta h2, .post-meta h2 span h2 {
+    font-size: .875rem;
+    font-weight: bold;
+    padding-bottom: .25rem;
+    color: #3B3A38; }
+    .post-meta h2 span, .post-meta h2 span h2 span {
+      text-transform: uppercase;
+      font-size: .625rem; }
+  .post-meta h3, .post-meta h2 span h3 {
+    margin-bottom: .25rem; }
+
+img.avatar {
+  width: 30px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 1rem; }
+
+ol {
+  list-style-type: decimal;
+  margin-left: 2rem; }
+
+ul {
+  list-style-type: disc;
+  margin-left: 2rem; }
+
+img {
+  width: 100%;
+  height: auto; }
