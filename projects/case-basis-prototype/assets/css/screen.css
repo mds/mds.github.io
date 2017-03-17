@@ -120,7 +120,7 @@ time {
 .message .action {
   border-radius: 20px;
   color: white;
-  background-color: #D67D00;
+  background-color: #0D8500;
   position: relative;
   margin-top: .5rem; }
 
@@ -167,7 +167,7 @@ time {
   padding: 0 3rem 3rem; }
   .status a {
     text-decoration: none;
-    color: #D67D00; }
+    color: #0D8500; }
 
 .message .action-has-arrow-signature:after {
   top: 8rem; }

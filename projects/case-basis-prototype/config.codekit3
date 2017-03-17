@@ -7,7 +7,7 @@
 		"uuidString": "F8E6D9B6-58CB-4776-911B-E6379DE3C6E5"
 		}
 	],
-"creatorBuild": "25568",
+"creatorBuild": "25704",
 "files": {
 	"\/assets\/css\/screen.css": {
 		"aP": 1,
@@ -22,26 +22,32 @@
 	"\/assets\/img\/avatar-amanda.png": {
 		"ft": 32768,
 		"iS": 11341,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/img\/avatar-amanda.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/img\/avatar-austin.png": {
 		"ft": 32768,
 		"iS": 11161,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/img\/avatar-austin.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/img\/car-wreck.png": {
 		"ft": 32768,
 		"iS": 120210,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/img\/car-wreck.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 1,
+		"q": 100
 		},
 	"\/assets\/img\/icon\/appointment.svg": {
 		"ft": 2097152,
@@ -296,26 +302,32 @@
 	"\/assets\/img\/signature.png": {
 		"ft": 32768,
 		"iS": 8739,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/img\/signature.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 1,
+		"q": 100
 		},
 	"\/assets\/img\/title-bar.png": {
 		"ft": 32768,
 		"iS": 11823,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/img\/title-bar.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/img\/video-placeholder.png": {
 		"ft": 32768,
 		"iS": 63963,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/img\/video-placeholder.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 1,
+		"q": 100
 		},
 	"\/assets\/js\/jquery-3.1.0.min.js": {
 		"ft": 64,
@@ -1208,6 +1220,10 @@
 			"active": 1,
 			"optionString": ""
 			},
+		"no-compare-neg-zero": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-cond-assign": {
 			"active": 1,
 			"optionString": "'except-parens'"
@@ -1687,6 +1703,10 @@
 		"no-with": {
 			"active": 0,
 			"optionString": ""
+			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"object-curly-newline": {
 			"active": 0,
@@ -2287,7 +2307,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"quality": 100
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -2380,7 +2401,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"enableLossy": 1,
+		"quality": 100
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,

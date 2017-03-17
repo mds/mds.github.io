@@ -7,7 +7,7 @@
 		"uuidString": "0818AE7A-49BF-4878-B373-988A745ECEBB"
 		}
 	],
-"creatorBuild": "25568",
+"creatorBuild": "25704",
 "files": {
 	"\/assets\/css\/screen.css": {
 		"aP": 1,
@@ -62,10 +62,12 @@
 	"\/assets\/img\/loader-reference.png": {
 		"ft": 32768,
 		"iS": 728,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/img\/loader-reference.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/img\/loader.svg": {
 		"ft": 2097152,
@@ -80,178 +82,222 @@
 	"\/assets\/img\/png\/loader0001.png": {
 		"ft": 32768,
 		"iS": 366,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/img\/png\/loader0001.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/img\/png\/loader0002.png": {
 		"ft": 32768,
 		"iS": 564,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/img\/png\/loader0002.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/img\/png\/loader0003.png": {
 		"ft": 32768,
 		"iS": 549,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/img\/png\/loader0003.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/img\/png\/loader0004.png": {
 		"ft": 32768,
 		"iS": 544,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/img\/png\/loader0004.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/img\/png\/loader0005.png": {
 		"ft": 32768,
 		"iS": 531,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/img\/png\/loader0005.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/img\/png\/loader0006.png": {
 		"ft": 32768,
 		"iS": 663,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/img\/png\/loader0006.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/img\/png\/loader0007.png": {
 		"ft": 32768,
 		"iS": 711,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/img\/png\/loader0007.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/img\/png\/loader0008.png": {
 		"ft": 32768,
 		"iS": 604,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/img\/png\/loader0008.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/img\/png\/loader0009.png": {
 		"ft": 32768,
 		"iS": 534,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/img\/png\/loader0009.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/img\/png\/loader0010.png": {
 		"ft": 32768,
 		"iS": 657,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/img\/png\/loader0010.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/img\/png\/loader0011.png": {
 		"ft": 32768,
 		"iS": 714,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/img\/png\/loader0011.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/img\/png\/loader0012.png": {
 		"ft": 32768,
 		"iS": 592,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/img\/png\/loader0012.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/img\/png\/loader0013.png": {
 		"ft": 32768,
 		"iS": 519,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/img\/png\/loader0013.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/img\/png\/loader0014.png": {
 		"ft": 32768,
 		"iS": 487,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/img\/png\/loader0014.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/img\/png\/loader0015.png": {
 		"ft": 32768,
 		"iS": 536,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/img\/png\/loader0015.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/img\/png\/loader0016.png": {
 		"ft": 32768,
 		"iS": 431,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/img\/png\/loader0016.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/img\/png\/loader0017.png": {
 		"ft": 32768,
 		"iS": 366,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/img\/png\/loader0017.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/img\/png\/loader0018.png": {
 		"ft": 32768,
 		"iS": 366,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/img\/png\/loader0018.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/img\/png\/loader0019.png": {
 		"ft": 32768,
 		"iS": 366,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/img\/png\/loader0019.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/img\/png\/loader0020.png": {
 		"ft": 32768,
 		"iS": 366,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/img\/png\/loader0020.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/img\/png\/loader0021.png": {
 		"ft": 32768,
 		"iS": 366,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/img\/png\/loader0021.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/img\/png\/loader0022.png": {
 		"ft": 32768,
 		"iS": 366,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/img\/png\/loader0022.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/sass\/.sass-cache\/04422dd3fbdc411e60ec1ce7eaf73f40d760b878\/_animation.sassc": {
 		"ft": 8192,
@@ -1072,6 +1118,10 @@
 			"active": 1,
 			"optionString": ""
 			},
+		"no-compare-neg-zero": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-cond-assign": {
 			"active": 1,
 			"optionString": "'except-parens'"
@@ -1551,6 +1601,10 @@
 		"no-with": {
 			"active": 0,
 			"optionString": ""
+			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"object-curly-newline": {
 			"active": 0,
@@ -2151,7 +2205,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"quality": 100
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -2244,7 +2299,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"enableLossy": 1,
+		"quality": 100
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
