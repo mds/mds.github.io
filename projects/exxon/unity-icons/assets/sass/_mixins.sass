@@ -1,0 +1,56 @@
+$small-width: 600px
+$medium-width: 960px
+$large-width: 1460px
+$xlarge-width: 1700px
+
+=small 
+  @media (min-width: #{$small-width})
+    @content
+
+=medium 
+  @media (min-width: #{$medium-width})
+    @content
+
+=large
+  @media (min-width: #{$large-width})
+    @content
+
+=xlarge
+  @media (min-width: #{$xlarge-width})
+    @content
+
+=easeall
+  -webkit-transition: all .25s ease-out
+  -moz-transition: all .25s ease-out
+  -o-transition: all .25s ease-out
+  transition: all .25s ease-out
+
+=font-light 
+  font-family: "EMprintLight", "HelveticaNeue", "Helvetica", "Arial", sans-serif
+  font-weight: 400
+  font-style: normal
+
+=font-regular 
+  font-family: "EMprintRegular", "HelveticaNeue", "Helvetica", "Arial", sans-serif
+  font-weight: 500
+  font-style: normal
+
+=font-regular-italic 
+  font-family: "EMprintRegularItalic", "HelveticaNeue", "Helvetica", "Arial", sans-serif
+  font-weight: 500
+  font-style: italic
+
+=font-semibold 
+  font-family: "EMprintSemibold", "HelveticaNeue", "Helvetica", "Arial", sans-serif
+  font-weight: 600
+  font-style: normal
+
+=font-semibold-italic 
+  font-family: "EMprintSemiboldItalic", "HelveticaNeue", "Helvetica", "Arial", sans-serif
+  font-weight: 600
+  font-style: italic
+
+=font-bold 
+  font-family: "EMprintBold", "HelveticaNeue", "Helvetica", "Arial", sans-serif
+  font-weight: 700
+  font-style: normal
