@@ -1,12 +1,15 @@
 
-// Appends correct pixel value to headers
-function appendPixelValue(size){
-  $(".appended").remove(); // In case it's already there
-  $('h2').append('<span class="appended">&nbsp;&nbsp;&nbsp;'+size+'px</span');
-}
+// Count the icons in each group
+$('.group-count').each(function(){
+  var $this = $(this);
+  $this.find('h2').append('<span class="appended">&nbsp;&nbsp;' + $this.find('ul li').length + ' Icons</span>');
+});
 
-// Set 24px as default
-appendPixelValue(24);
+// Appends correct pixel value to headers
+// function appendSize(size){
+//   $(".appended").remove(); // In case it's already there
+//   $("h2").append('<span class="appended">&nbsp;&nbsp;&nbsp;'+size+'px</span');
+// }
 
 // Sets active button
 var $btns = $(".btn").on("click", function() {
@@ -20,7 +23,7 @@ var $btns = $(".btn").on("click", function() {
 $("#btn-tiny").on("click", function() {
 
   $("ul").removeClass().addClass("group-t");
-  appendPixelValue(12);
+  //appendSize(12);
   $("li").removeClass();
 
 });
@@ -29,7 +32,7 @@ $("#btn-tiny").on("click", function() {
 $("#btn-small").on("click", function() {
 
   $("ul").removeClass().addClass("group-s");
-  appendPixelValue(16);
+  //appendSize(16);
   $("li").removeClass();
 
 });
@@ -38,7 +41,7 @@ $("#btn-small").on("click", function() {
 $("#btn-medium").on("click", function() {
 
   $("ul").removeClass().addClass("group-m");
-  appendPixelValue(24);
+  //appendSize(24);
   $("li").removeClass();
 
 });
@@ -47,7 +50,7 @@ $("#btn-medium").on("click", function() {
 $("#btn-large").on("click", function() {
 
   $("ul").removeClass().addClass("group-l");
-  appendPixelValue(32);
+  //appendSize(32);
   $("li").removeClass();
 
 });
@@ -56,7 +59,7 @@ $("#btn-large").on("click", function() {
 $("#btn-xlarge").on("click", function() {
 
   $("ul").removeClass().addClass("group-xl");
-  appendPixelValue(48);
+  //appendSize(48);
   // 3 col layout for the big guys
   $("li").addClass("xlarge");
 

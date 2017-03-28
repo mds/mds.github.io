@@ -1881,15 +1881,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/filter.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/filter-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"\/assets\/js\/find-text-min.js": {
 		"ft": 64,
 		"mi": 1,
@@ -1905,6 +1896,15 @@
 		"oA": 2,
 		"oAP": "\/assets\/js\/find-text-min.js",
 		"oF": 1,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/index-min.js",
+		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
