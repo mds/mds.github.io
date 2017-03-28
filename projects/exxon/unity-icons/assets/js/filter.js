@@ -2,7 +2,7 @@
 // Appends correct pixel value to headers
 function appendPixelValue(size){
   $(".appended").remove(); // In case it's already there
-  $('h2').append('<span class="appended">&nbsp;&nbsp;'+size+'px</span');
+  $('h2').append('<span class="appended">&nbsp;&nbsp;&nbsp;'+size+'px</span');
 }
 
 // Set 24px as default
