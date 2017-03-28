@@ -1899,6 +1899,15 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/assets\/js\/index-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/index-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/assets\/js\/index.js": {
 		"ft": 64,
 		"mi": 1,
@@ -1934,6 +1943,12 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/favicon.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/favicon.ico",
+		"oF": 0
 		},
 	"\/index.html": {
 		"ft": 8192,
