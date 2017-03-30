@@ -72,7 +72,8 @@ body {
 ul {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 4rem; }
+  margin-bottom: 4rem;
+  border-bottom: 1px solid #f0f0f0; }
 
 li {
   flex: 1 0 50%;
