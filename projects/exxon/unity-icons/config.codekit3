@@ -1722,6 +1722,26 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/assets\/img\/unity-interface-24px-sort-down.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/img\/unity-interface-24px-sort-down.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/img\/unity-interface-24px-sort-up.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/img\/unity-interface-24px-sort-up.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/assets\/img\/unity-interface-24px-sort.svg": {
 		"ft": 2097152,
 		"miP": 0,

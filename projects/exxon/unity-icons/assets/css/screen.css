@@ -264,7 +264,7 @@ input:focus {
   border-color: #0c69b0; }
 
 .controls {
-  padding: .425rem 0 2rem;
+  padding: .25rem 0 2rem;
   display: block;
   margin-right: 0; }
 
@@ -272,9 +272,21 @@ button {
   padding: .25rem .75rem;
   margin-right: .5rem;
   font-size: .675rem;
+  color: #112;
   font-family: "EMprintSemibold", "HelveticaNeue", "Helvetica", "Arial", sans-serif;
   font-weight: 600;
-  font-style: normal; }
+  font-style: normal;
+  -webkit-transition: all .25s ease-out;
+  -moz-transition: all .25s ease-out;
+  -o-transition: all .25s ease-out;
+  transition: all .25s ease-out; }
+  button:hover {
+    -webkit-transition: all .25s ease-out;
+    -moz-transition: all .25s ease-out;
+    -o-transition: all .25s ease-out;
+    transition: all .25s ease-out; }
+  button:active {
+    color: #112; }
 
 button.active {
   font-size: .675rem;
