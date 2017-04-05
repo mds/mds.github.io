@@ -7,7 +7,7 @@
 		"uuidString": "2313AC65-7FC3-4988-B362-E752C6362353"
 		}
 	],
-"creatorBuild": "25704",
+"creatorBuild": "25813",
 "files": {
 	"\/assets\/css\/sass\/.sass-cache\/04422dd3fbdc411e60ec1ce7eaf73f40d760b878\/_animation.sassc": {
 		"ft": 8192,
@@ -3585,6 +3585,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-prototype-builtins": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-redeclare": {
 			"active": 1,
 			"optionString": "{'builtinGlobals': false}"
@@ -4409,14 +4413,6 @@
 		"orderOutput": 0,
 		"outputStyle": 1
 		},
-	"languageDefaultsJSX": {
-		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "jsx",
-		"autoOutputPathReplace2": "js",
-		"autoOutputPathStyle": 0
-		},
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.html",
@@ -4479,7 +4475,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"enableLossy": 1,
+		"optimizerType": 1,
 		"quality": 100
 		},
 	"languageDefaultsPUG": {
