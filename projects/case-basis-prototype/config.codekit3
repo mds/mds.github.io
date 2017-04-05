@@ -7,7 +7,7 @@
 		"uuidString": "F8E6D9B6-58CB-4776-911B-E6379DE3C6E5"
 		}
 	],
-"creatorBuild": "25704",
+"creatorBuild": "25813",
 "files": {
 	"\/assets\/css\/screen.css": {
 		"aP": 1,
@@ -22,31 +22,34 @@
 	"\/assets\/img\/avatar-amanda.png": {
 		"ft": 32768,
 		"iS": 11341,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/img\/avatar-amanda.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/img\/avatar-austin.png": {
 		"ft": 32768,
 		"iS": 11161,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/img\/avatar-austin.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/img\/car-wreck.png": {
 		"ft": 32768,
 		"iS": 120210,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/img\/car-wreck.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/img\/icon\/appointment.svg": {
@@ -302,31 +305,34 @@
 	"\/assets\/img\/signature.png": {
 		"ft": 32768,
 		"iS": 8739,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/img\/signature.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/img\/title-bar.png": {
 		"ft": 32768,
 		"iS": 11823,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/img\/title-bar.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/img\/video-placeholder.png": {
 		"ft": 32768,
 		"iS": 63963,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/img\/video-placeholder.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/js\/jquery-3.1.0.min.js": {
@@ -1508,6 +1514,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-prototype-builtins": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-redeclare": {
 			"active": 1,
 			"optionString": "{'builtinGlobals': false}"
@@ -2332,14 +2342,6 @@
 		"orderOutput": 0,
 		"outputStyle": 1
 		},
-	"languageDefaultsJSX": {
-		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "jsx",
-		"autoOutputPathReplace2": "js",
-		"autoOutputPathStyle": 0
-		},
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.html",
@@ -2402,7 +2404,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"enableLossy": 1,
+		"optimizerType": 1,
 		"quality": 100
 		},
 	"languageDefaultsPUG": {

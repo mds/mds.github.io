@@ -7,7 +7,7 @@
 		"uuidString": "42D2B143-5779-4B9E-BE07-FE9E978D3BFB"
 		}
 	],
-"creatorBuild": "25704",
+"creatorBuild": "25813",
 "files": {
 	"\/assets\/css\/screen.css": {
 		"aP": 1,
@@ -22,21 +22,23 @@
 	"\/assets\/img\/avatar-dan.png": {
 		"ft": 32768,
 		"iS": 15645,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/img\/avatar-dan.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/img\/titlebar.png": {
 		"ft": 32768,
 		"iS": 14831,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/img\/titlebar.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/js\/jquery-3.1.0.min.js": {
@@ -1178,6 +1180,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-prototype-builtins": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-redeclare": {
 			"active": 1,
 			"optionString": "{'builtinGlobals': false}"
@@ -2002,14 +2008,6 @@
 		"orderOutput": 0,
 		"outputStyle": 1
 		},
-	"languageDefaultsJSX": {
-		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "jsx",
-		"autoOutputPathReplace2": "js",
-		"autoOutputPathStyle": 0
-		},
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.html",
@@ -2072,7 +2070,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"enableLossy": 1,
+		"optimizerType": 1,
 		"quality": 100
 		},
 	"languageDefaultsPUG": {
