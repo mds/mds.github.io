@@ -18,7 +18,7 @@ body
 .main
   width: 100%
   max-width: 68rem
-  margin: 2rem auto 10rem
+  margin: 6rem auto 10rem
   padding: 0 1rem
 
   +small
@@ -71,20 +71,30 @@ li.xlarge
   flex-wrap: wrap
   justify-content: space-between
   border-bottom: 2px solid $color-light-grey
-  margin-bottom: 4rem
-  padding: 1rem 0
+  padding: 1rem
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  background-color: rgba($color-white, .9)
 
-  & > div
-    display: flex
-    flex-direction: row
+  +medium
+    left: 50%
+    width: 100%
+    max-width: 64rem
+    margin-left: -32rem
+    padding: 1rem 0
+    
+  // & > div
+  //   display: flex
+  //   flex-direction: row
 
-  +large
-    padding: 2rem 0
-    margin-bottom: 6rem
+  // +large
+  //   padding: 2rem 0
+  //   margin-bottom: 6rem
 
 h1
   font-size: 1.25rem
-  margin: .5rem 0 1.5rem
   text-transform: uppercase
   color: $color-red
   +font-bold
@@ -124,5 +134,9 @@ h3
   +large
     font-size: .875rem
 
+.is-visible
+  display: inline
 
+.is-hidden
+  display: none
 

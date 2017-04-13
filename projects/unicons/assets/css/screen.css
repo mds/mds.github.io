@@ -52,7 +52,7 @@ body {
 .main {
   width: 100%;
   max-width: 68rem;
-  margin: 2rem auto 10rem;
+  margin: 6rem auto 10rem;
   padding: 0 1rem; }
   @media (min-width: 690px) {
     .main {
@@ -89,11 +89,11 @@ li {
     li {
       padding: 1.5rem;
       flex: 0 0 33.3333333333%; } }
-  @media (min-width: 960px) {
+  @media (min-width: 1024px) {
     li {
       flex: 0 0 25%; } }
 
-@media (min-width: 960px) {
+@media (min-width: 1024px) {
   li.xlarge {
     padding: 2rem 3rem;
     flex: 0 0 33.3333333333%; } }
@@ -111,19 +111,22 @@ li.xlarge h3 {
   flex-wrap: wrap;
   justify-content: space-between;
   border-bottom: 2px solid #f0f0f0;
-  margin-bottom: 4rem;
-  padding: 1rem 0; }
-  .top > div {
-    display: flex;
-    flex-direction: row; }
-  @media (min-width: 1460px) {
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9); }
+  @media (min-width: 1024px) {
     .top {
-      padding: 2rem 0;
-      margin-bottom: 6rem; } }
+      left: 50%;
+      width: 100%;
+      max-width: 64rem;
+      margin-left: -32rem;
+      padding: 1rem 0; } }
 
 h1 {
   font-size: 1.25rem;
-  margin: .5rem 0 1.5rem;
   text-transform: uppercase;
   color: #d82424;
   font-family: "EMprintBold", "HelveticaNeue", "Helvetica", "Arial", sans-serif;
@@ -169,6 +172,12 @@ h3 {
   @media (min-width: 1460px) {
     h3 {
       font-size: .875rem; } }
+
+.is-visible {
+  display: inline; }
+
+.is-hidden {
+  display: none; }
 
 @font-face {
   font-family: 'EMprintLight';
@@ -264,13 +273,12 @@ input:focus {
   border-color: #0c69b0; }
 
 .controls {
-  padding: .25rem 0 2rem;
   display: block;
   margin-right: 0; }
 
 button {
   padding: .25rem .75rem;
-  margin-right: .5rem;
+  margin-left: .25rem;
   font-size: .675rem;
   color: #112;
   font-family: "EMprintSemibold", "HelveticaNeue", "Helvetica", "Arial", sans-serif;
@@ -292,8 +300,8 @@ button.active {
   font-size: .675rem;
   color: #d82424; }
 
-.group-t li img,
-.group-t li svg {
+.group-12 li img,
+.group-12 li svg {
   width: 12px;
   height: 12px;
   -webkit-transition: all .25s ease-out;
@@ -301,8 +309,8 @@ button.active {
   -o-transition: all .25s ease-out;
   transition: all .25s ease-out; }
 
-.group-s li img,
-.group-s li svg {
+.group-16 li img,
+.group-16 li svg {
   width: 16px;
   height: 16px;
   -webkit-transition: all .25s ease-out;
@@ -310,8 +318,8 @@ button.active {
   -o-transition: all .25s ease-out;
   transition: all .25s ease-out; }
 
-.group-m li img,
-.group-m li svg {
+.group-24 li img,
+.group-24 li svg {
   width: 24px;
   height: 24px;
   -webkit-transition: all .25s ease-out;
@@ -319,8 +327,8 @@ button.active {
   -o-transition: all .25s ease-out;
   transition: all .25s ease-out; }
 
-.group-l li img,
-.group-l li svg {
+.group-32 li img,
+.group-32 li svg {
   width: 32px;
   height: 32px;
   -webkit-transition: all .25s ease-out;
@@ -328,8 +336,8 @@ button.active {
   -o-transition: all .25s ease-out;
   transition: all .25s ease-out; }
 
-.group-xl li img,
-.group-xl li svg {
+.group-48 li img,
+.group-48 li svg {
   width: 48px;
   height: 48px;
   -webkit-transition: all .25s ease-out;

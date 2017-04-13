@@ -1,15 +1,10 @@
 
-// Count the icons in each group
+
+// Count the icons in each group and append size to h2 span
 $('.group-count').each(function(){
   var $this = $(this);
   $this.find('h2').append('<span class="appended">&nbsp;&nbsp;' + $this.find('ul li').length + ' Icons</span>');
 });
-
-// Appends correct pixel value to headers
-// function appendSize(size){
-//   $(".appended").remove(); // In case it's already there
-//   $("h2").append('<span class="appended">&nbsp;&nbsp;&nbsp;'+size+'px</span');
-// }
 
 // Sets active button
 var $btns = $(".btn").on("click", function() {
@@ -19,48 +14,71 @@ var $btns = $(".btn").on("click", function() {
       .data("filter");
 });
 
-// Tiny - 12px
-$("#btn-tiny").on("click", function() {
+function replaceIcons(size){
 
-  $("ul").removeClass().addClass("group-t");
-  //appendSize(12);
-  $("li").removeClass();
+  // Finds the size in the img src and replaces it with new size
+  $('img').each(function(){
+    var $this = $(this);
+    $this.attr('src',$this.attr('src').replace('16', size));
+    $this.attr('src',$this.attr('src').replace('24', size));
+    $this.attr('src',$this.attr('src').replace('32', size));
+    $this.attr('src',$this.attr('src').replace('48', size));
+  });
 
-});
+}
 
-// Small - 16px
+// Changes icon size to 16px
 $("#btn-small").on("click", function() {
 
-  $("ul").removeClass().addClass("group-s");
-  //appendSize(16);
-  $("li").removeClass();
+  // Change img src to correct size
+  replaceIcons(16);
+
+  // Change to the proper size
+  $("ul").removeClass().addClass("group-16");
+
+  // removes 3col class possibly left over from 48px
+  $("li").removeClass("xlarge");
 
 });
 
-// Medium – 24px 
+// Changes icon size to 24px 
 $("#btn-medium").on("click", function() {
 
-  $("ul").removeClass().addClass("group-m");
-  //appendSize(24);
-  $("li").removeClass();
+  // Change img src to correct size
+  replaceIcons(24);
+
+  // change to the proper size
+  $("ul").removeClass().addClass("group-24");
+
+  // removes 3col class possibly left over from 48px
+  $("li").removeClass("xlarge");
 
 });
 
-// Large – 32px
+// Changes icon size to 32px
 $("#btn-large").on("click", function() {
 
-  $("ul").removeClass().addClass("group-l");
-  //appendSize(32);
-  $("li").removeClass();
+  // Change img src to correct size
+  replaceIcons(24);
+
+  // Change to the proper size
+  $("ul").removeClass().addClass("group-32");
+  
+  // Removes 3col class possibly left over from 48px
+  $("li").removeClass("xlarge");
 
 });
 
-// X Large – 48px
+// Changes icon size to 48px
 $("#btn-xlarge").on("click", function() {
 
-  $("ul").removeClass().addClass("group-xl");
-  //appendSize(48);
-  // 3 col layout for the big guys
+  // Change img src to correct size
+  replaceIcons(24);
+
+  // Change to the proper size
+  $("ul").removeClass().addClass("group-48");
+
+  // 3 col layout so the big guys can have more space
   $("li").addClass("xlarge");
 
 });
