@@ -27,9 +27,9 @@ function replaceIcons(size){
     $this.attr('src',$this.attr('src').replace('48', size));
 
     // Check for error and loads a sad face if icon isn't there
-    $this.on("error", function(){
-      $(this).attr('src', '../assets/img/unicons-people-48px-face-sad.svg');
-    });
+    // $this.on("error", function(){
+    //   $(this).attr('src', '../assets/img/unicons-people-48px-face-sad.svg');
+    // });
 
   });
 
