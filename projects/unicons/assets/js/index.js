@@ -14,6 +14,8 @@ var $btns = $(".btn").on("click", function() {
       .data("filter");
 });
 
+
+// This gets called on button press to show the correct sizes. Dynamic FTW!
 function replaceIcons(size){
 
   // Finds the size in the img src and replaces it with new size
@@ -23,6 +25,12 @@ function replaceIcons(size){
     $this.attr('src',$this.attr('src').replace('24', size));
     $this.attr('src',$this.attr('src').replace('32', size));
     $this.attr('src',$this.attr('src').replace('48', size));
+
+    // Check for error and loads a sad face if icon isn't there
+    $this.on("error", function(){
+      $(this).attr('src', '../assets/img/unicons-people-48px-face-sad.svg');
+    });
+
   });
 
 }
@@ -73,7 +81,7 @@ $("#btn-large").on("click", function() {
 $("#btn-xlarge").on("click", function() {
 
   // Change img src to correct size
-  replaceIcons(24);
+  replaceIcons(48);
 
   // Change to the proper size
   $("ul").removeClass().addClass("group-48");
