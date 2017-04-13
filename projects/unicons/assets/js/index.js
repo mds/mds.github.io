@@ -44,9 +44,6 @@ $("#btn-small").on("click", function() {
   // Change to the proper size
   $("ul").removeClass().addClass("group-16");
 
-  // removes 3col class possibly left over from 48px
-  $("li").removeClass("xlarge");
-
 });
 
 // Changes icon size to 24px 
@@ -58,9 +55,6 @@ $("#btn-medium").on("click", function() {
   // change to the proper size
   $("ul").removeClass().addClass("group-24");
 
-  // removes 3col class possibly left over from 48px
-  $("li").removeClass("xlarge");
-
 });
 
 // Changes icon size to 32px
@@ -71,9 +65,7 @@ $("#btn-large").on("click", function() {
 
   // Change to the proper size
   $("ul").removeClass().addClass("group-32");
-  
-  // Removes 3col class possibly left over from 48px
-  $("li").removeClass("xlarge");
+
 
 });
 
@@ -85,8 +77,5 @@ $("#btn-xlarge").on("click", function() {
 
   // Change to the proper size
   $("ul").removeClass().addClass("group-48");
-
-  // 3 col layout so the big guys can have more space
-  $("li").addClass("xlarge");
 
 });

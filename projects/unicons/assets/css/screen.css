@@ -93,19 +93,6 @@ li {
     li {
       flex: 0 0 25%; } }
 
-@media (min-width: 1024px) {
-  li.xlarge {
-    padding: 2rem 3rem;
-    flex: 0 0 33.3333333333%; } }
-
-@media (min-width: 1460px) {
-  li.xlarge {
-    flex: 0 0 25%;
-    padding: 2rem 1rem; } }
-
-li.xlarge h3 {
-  text-indent: none; }
-
 .top {
   display: flex;
   flex-wrap: wrap;
@@ -167,7 +154,7 @@ h3 {
   font-style: normal; }
   @media (min-width: 690px) {
     h3 {
-      margin-left: 2rem;
+      margin-left: 1rem;
       font-size: .75rem; } }
   @media (min-width: 1460px) {
     h3 {
