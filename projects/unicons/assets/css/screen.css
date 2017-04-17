@@ -64,6 +64,7 @@ body {
   @media (min-width: 1460px) {
     .main {
       max-width: 90rem;
+      margin: 8rem auto 10rem;
       -webkit-transition: all .25s ease-out;
       -moz-transition: all .25s ease-out;
       -o-transition: all .25s ease-out;
@@ -111,6 +112,15 @@ li {
       max-width: 64rem;
       margin-left: -32rem;
       padding: 1rem 0; } }
+  @media (min-width: 1460px) {
+    .top {
+      max-width: 86rem;
+      margin-left: -43rem;
+      padding: 2rem 0;
+      -webkit-transition: all .25s ease-out;
+      -moz-transition: all .25s ease-out;
+      -o-transition: all .25s ease-out;
+      transition: all .25s ease-out; } }
 
 h1 {
   font-size: 1.25rem;
@@ -121,8 +131,7 @@ h1 {
   font-style: normal; }
   @media (min-width: 1460px) {
     h1 {
-      font-size: 1.75rem;
-      margin: .5rem 0 1.5rem; } }
+      font-size: 1.75rem; } }
 
 h2 {
   font-size: 1rem;
