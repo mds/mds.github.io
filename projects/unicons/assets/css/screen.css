@@ -86,8 +86,7 @@ li {
   margin: 0 0 -1px 0;
   border-bottom: 1px solid #f0f0f0;
   flex-grow: 0;
-  color: currentColor;
-  fill: currentColor; }
+  color: #5a5b5f; }
   @media (min-width: 690px) {
     li {
       padding: 1.5rem;
@@ -339,7 +338,7 @@ button.active {
 
 .group-32 li img,
 .group-32 li svg {
-  stroke-width: 1;
+  stroke-width: .666;
   width: 32px;
   height: 32px;
   -webkit-transition: all .25s ease-out;

@@ -18,18 +18,14 @@ var $btns = $(".btn").on("click", function() {
 // This gets called on button press to show the correct sizes. Dynamic FTW!
 function replaceIcons(size){
 
-  // Finds the size in the img src and replaces it with new size
-  $('img').each(function(){
+  // Finds the size in the <use> attribute and replaces it with new size
+  $('use').each(function(){
     var $this = $(this);
-    $this.attr('src',$this.attr('src').replace('16', size));
-    $this.attr('src',$this.attr('src').replace('24', size));
-    $this.attr('src',$this.attr('src').replace('32', size));
-    $this.attr('src',$this.attr('src').replace('48', size));
 
-    // Check for error and loads a sad face if icon isn't there
-    // $this.on("error", function(){
-    //   $(this).attr('src', '../assets/img/unicons-people-48px-face-sad.svg');
-    // });
+    $this.attr('xlink:href',$this.attr('xlink:href').replace('16', size));
+    $this.attr('xlink:href',$this.attr('xlink:href').replace('24', size));
+    //$this.attr('xlink:href',$this.attr('xlink:href').replace('32', size));
+    $this.attr('xlink:href',$this.attr('xlink:href').replace('48', size));
 
   });
 
