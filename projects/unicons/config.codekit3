@@ -6329,6 +6329,16 @@
 		"miP": 1,
 		"oA": 1,
 		"oAP": "\/assets\/svg\/svg-optimized\/unicons-things-16px-trashcan-empty.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/unicons-things-16px-trashcan-filled.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/svg-optimized\/unicons-things-16px-trashcan-filled.svg",
 		"oF": 1,
 		"opt": 0,
 		"plM": 434328559615,
@@ -6894,6 +6904,16 @@
 		"plM": 434328559615,
 		"prP": 0
 		},
+	"\/assets\/svg\/unicons-things-24px-trashcan-filled.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/svg-optimized\/unicons-things-24px-trashcan-filled.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
 	"\/assets\/svg\/unicons-things-24px-trashcan.svg": {
 		"ft": 2097152,
 		"miP": 1,
@@ -7453,6 +7473,16 @@
 		"opt": 0,
 		"plM": 434328559615,
 		"prP": 0
+		},
+	"\/assets\/svg\/unicons-things-48px-trashcan-filled.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/svg-optimized\/unicons-things-48px-trashcan-filled.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
 		},
 	"\/assets\/svg\/unicons-things-48px-trashcan.svg": {
 		"ft": 2097152,
