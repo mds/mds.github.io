@@ -664,6 +664,16 @@
 		"plM": 434328559615,
 		"prP": 0
 		},
+	"\/assets\/svg\/unicons-basic-16px-check-filled.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/svg-optimized\/unicons-basic-16px-check-filled.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
 	"\/assets\/svg\/unicons-basic-16px-check.svg": {
 		"ft": 2097152,
 		"miP": 1,
@@ -673,6 +683,16 @@
 		"opt": 0,
 		"plM": 434328559615,
 		"prP": 0
+		},
+	"\/assets\/svg\/unicons-basic-16px-chevron-down-filled.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/svg-optimized\/unicons-basic-16px-chevron-down-filled.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
 		},
 	"\/assets\/svg\/unicons-basic-16px-chevron-down.svg": {
 		"ft": 2097152,
@@ -694,6 +714,16 @@
 		"plM": 434328559615,
 		"prP": 0
 		},
+	"\/assets\/svg\/unicons-basic-16px-chevron-left-filled.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/svg-optimized\/unicons-basic-16px-chevron-left-filled.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
 	"\/assets\/svg\/unicons-basic-16px-chevron-left.svg": {
 		"ft": 2097152,
 		"miP": 1,
@@ -704,6 +734,16 @@
 		"plM": 434328559615,
 		"prP": 0
 		},
+	"\/assets\/svg\/unicons-basic-16px-chevron-right-filled.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/svg-optimized\/unicons-basic-16px-chevron-right-filled.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
 	"\/assets\/svg\/unicons-basic-16px-chevron-right.svg": {
 		"ft": 2097152,
 		"miP": 1,
@@ -713,6 +753,16 @@
 		"opt": 0,
 		"plM": 434328559615,
 		"prP": 0
+		},
+	"\/assets\/svg\/unicons-basic-16px-chevron-up-filled.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/svg-optimized\/unicons-basic-16px-chevron-up-filled.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
 		},
 	"\/assets\/svg\/unicons-basic-16px-chevron-up.svg": {
 		"ft": 2097152,
@@ -743,6 +793,26 @@
 		"opt": 0,
 		"plM": 434328559615,
 		"prP": 0
+		},
+	"\/assets\/svg\/unicons-basic-16px-circle-filled.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/svg-optimized\/unicons-basic-16px-circle-filled.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/unicons-basic-16px-circle-line.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/svg-optimized\/unicons-basic-16px-circle-line.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
 		},
 	"\/assets\/svg\/unicons-basic-16px-circle-minus.svg": {
 		"ft": 2097152,
@@ -794,6 +864,26 @@
 		"plM": 434328559615,
 		"prP": 0
 		},
+	"\/assets\/svg\/unicons-basic-16px-exclamation-filled.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/svg-optimized\/unicons-basic-16px-exclamation-filled.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/unicons-basic-16px-minus-filled.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/svg-optimized\/unicons-basic-16px-minus-filled.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
 	"\/assets\/svg\/unicons-basic-16px-minus.svg": {
 		"ft": 2097152,
 		"miP": 1,
@@ -804,6 +894,16 @@
 		"plM": 434328559615,
 		"prP": 0
 		},
+	"\/assets\/svg\/unicons-basic-16px-plus-filled.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/svg-optimized\/unicons-basic-16px-plus-filled.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
 	"\/assets\/svg\/unicons-basic-16px-plus.svg": {
 		"ft": 2097152,
 		"miP": 1,
@@ -813,6 +913,36 @@
 		"opt": 0,
 		"plM": 434328559615,
 		"prP": 0
+		},
+	"\/assets\/svg\/unicons-basic-16px-square-filled.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/svg-optimized\/unicons-basic-16px-square-filled.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/unicons-basic-16px-square-line.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/svg-optimized\/unicons-basic-16px-square-line.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/unicons-basic-16px-x-filled.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/svg-optimized\/unicons-basic-16px-x-filled.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
 		},
 	"\/assets\/svg\/unicons-basic-24px-arrow-down.svg": {
 		"ft": 2097152,
@@ -954,6 +1084,16 @@
 		"plM": 434328559615,
 		"prP": 0
 		},
+	"\/assets\/svg\/unicons-basic-24px-check-filled.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/svg-optimized\/unicons-basic-24px-check-filled.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
 	"\/assets\/svg\/unicons-basic-24px-check.svg": {
 		"ft": 2097152,
 		"miP": 1,
@@ -963,6 +1103,16 @@
 		"opt": 1,
 		"plM": 434328559615,
 		"prP": 0
+		},
+	"\/assets\/svg\/unicons-basic-24px-chevron-down-filled.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/svg-optimized\/unicons-basic-24px-chevron-down-filled.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
 		},
 	"\/assets\/svg\/unicons-basic-24px-chevron-down.svg": {
 		"ft": 2097152,
@@ -984,6 +1134,16 @@
 		"plM": 434328559615,
 		"prP": 0
 		},
+	"\/assets\/svg\/unicons-basic-24px-chevron-left-filled.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/svg-optimized\/unicons-basic-24px-chevron-left-filled.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
 	"\/assets\/svg\/unicons-basic-24px-chevron-left.svg": {
 		"ft": 2097152,
 		"miP": 1,
@@ -994,6 +1154,16 @@
 		"plM": 434328559615,
 		"prP": 0
 		},
+	"\/assets\/svg\/unicons-basic-24px-chevron-right-filled.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/svg-optimized\/unicons-basic-24px-chevron-right-filled.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
 	"\/assets\/svg\/unicons-basic-24px-chevron-right.svg": {
 		"ft": 2097152,
 		"miP": 1,
@@ -1003,6 +1173,16 @@
 		"opt": 1,
 		"plM": 434328559615,
 		"prP": 0
+		},
+	"\/assets\/svg\/unicons-basic-24px-chevron-up-filled.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/svg-optimized\/unicons-basic-24px-chevron-up-filled.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
 		},
 	"\/assets\/svg\/unicons-basic-24px-chevron-up.svg": {
 		"ft": 2097152,
@@ -1033,6 +1213,26 @@
 		"opt": 1,
 		"plM": 434328559615,
 		"prP": 0
+		},
+	"\/assets\/svg\/unicons-basic-24px-circle-filled.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/svg-optimized\/unicons-basic-24px-circle-filled.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/unicons-basic-24px-circle-line.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/svg-optimized\/unicons-basic-24px-circle-line.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
 		},
 	"\/assets\/svg\/unicons-basic-24px-circle-minus.svg": {
 		"ft": 2097152,
@@ -1084,6 +1284,26 @@
 		"plM": 434328559615,
 		"prP": 0
 		},
+	"\/assets\/svg\/unicons-basic-24px-exclamation-filled.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/svg-optimized\/unicons-basic-24px-exclamation-filled.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/unicons-basic-24px-minus-filled.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/svg-optimized\/unicons-basic-24px-minus-filled.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
 	"\/assets\/svg\/unicons-basic-24px-minus.svg": {
 		"ft": 2097152,
 		"miP": 1,
@@ -1094,6 +1314,16 @@
 		"plM": 434328559615,
 		"prP": 0
 		},
+	"\/assets\/svg\/unicons-basic-24px-plus-filled.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/svg-optimized\/unicons-basic-24px-plus-filled.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
 	"\/assets\/svg\/unicons-basic-24px-plus.svg": {
 		"ft": 2097152,
 		"miP": 1,
@@ -1103,6 +1333,36 @@
 		"opt": 1,
 		"plM": 434328559615,
 		"prP": 0
+		},
+	"\/assets\/svg\/unicons-basic-24px-square-filled.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/svg-optimized\/unicons-basic-24px-square-filled.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/unicons-basic-24px-square-line.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/svg-optimized\/unicons-basic-24px-square-line.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/unicons-basic-24px-x-filled.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/svg-optimized\/unicons-basic-24px-x-filled.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
 		},
 	"\/assets\/svg\/unicons-basic-48px-arrow-down.svg": {
 		"ft": 2097152,
@@ -1244,6 +1504,16 @@
 		"plM": 434328559615,
 		"prP": 0
 		},
+	"\/assets\/svg\/unicons-basic-48px-check-filled.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/svg-optimized\/unicons-basic-48px-check-filled.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
 	"\/assets\/svg\/unicons-basic-48px-check.svg": {
 		"ft": 2097152,
 		"miP": 1,
@@ -1253,6 +1523,16 @@
 		"opt": 0,
 		"plM": 434328559615,
 		"prP": 0
+		},
+	"\/assets\/svg\/unicons-basic-48px-chevron-down-filled.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/svg-optimized\/unicons-basic-48px-chevron-down-filled.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
 		},
 	"\/assets\/svg\/unicons-basic-48px-chevron-down.svg": {
 		"ft": 2097152,
@@ -1274,6 +1554,16 @@
 		"plM": 434328559615,
 		"prP": 0
 		},
+	"\/assets\/svg\/unicons-basic-48px-chevron-left-filled.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/svg-optimized\/unicons-basic-48px-chevron-left-filled.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
 	"\/assets\/svg\/unicons-basic-48px-chevron-left.svg": {
 		"ft": 2097152,
 		"miP": 1,
@@ -1284,6 +1574,16 @@
 		"plM": 434328559615,
 		"prP": 0
 		},
+	"\/assets\/svg\/unicons-basic-48px-chevron-right-filled.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/svg-optimized\/unicons-basic-48px-chevron-right-filled.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
 	"\/assets\/svg\/unicons-basic-48px-chevron-right.svg": {
 		"ft": 2097152,
 		"miP": 1,
@@ -1293,6 +1593,16 @@
 		"opt": 0,
 		"plM": 434328559615,
 		"prP": 0
+		},
+	"\/assets\/svg\/unicons-basic-48px-chevron-up-filled.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/svg-optimized\/unicons-basic-48px-chevron-up-filled.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
 		},
 	"\/assets\/svg\/unicons-basic-48px-chevron-up.svg": {
 		"ft": 2097152,
@@ -1323,6 +1633,26 @@
 		"opt": 0,
 		"plM": 434328559615,
 		"prP": 0
+		},
+	"\/assets\/svg\/unicons-basic-48px-circle-filled.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/svg-optimized\/unicons-basic-48px-circle-filled.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/unicons-basic-48px-circle-line.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/svg-optimized\/unicons-basic-48px-circle-line.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
 		},
 	"\/assets\/svg\/unicons-basic-48px-circle-minus.svg": {
 		"ft": 2097152,
@@ -1374,6 +1704,26 @@
 		"plM": 434328559615,
 		"prP": 0
 		},
+	"\/assets\/svg\/unicons-basic-48px-exclamation-filled.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/svg-optimized\/unicons-basic-48px-exclamation-filled.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/unicons-basic-48px-minus-filled.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/svg-optimized\/unicons-basic-48px-minus-filled.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
 	"\/assets\/svg\/unicons-basic-48px-minus.svg": {
 		"ft": 2097152,
 		"miP": 1,
@@ -1384,6 +1734,16 @@
 		"plM": 434328559615,
 		"prP": 0
 		},
+	"\/assets\/svg\/unicons-basic-48px-plus-filled.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/svg-optimized\/unicons-basic-48px-plus-filled.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
 	"\/assets\/svg\/unicons-basic-48px-plus.svg": {
 		"ft": 2097152,
 		"miP": 1,
@@ -1393,6 +1753,36 @@
 		"opt": 0,
 		"plM": 434328559615,
 		"prP": 0
+		},
+	"\/assets\/svg\/unicons-basic-48px-square-filled.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/svg-optimized\/unicons-basic-48px-square-filled.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/unicons-basic-48px-square-line.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/svg-optimized\/unicons-basic-48px-square-line.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/unicons-basic-48px-x-filled.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/svg-optimized\/unicons-basic-48px-x-filled.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
 		},
 	"\/assets\/svg\/unicons-docs-16px-attachment.svg": {
 		"ft": 2097152,

@@ -1,5 +1,4 @@
 
-
 // Count the icons in each group and append size to h2 span
 $('.group-count').each(function(){
   var $this = $(this);

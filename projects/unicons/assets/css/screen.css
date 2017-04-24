@@ -338,7 +338,7 @@ button.active {
 
 .group-32 li img,
 .group-32 li svg {
-  stroke-width: .666;
+  stroke-width: .66;
   width: 32px;
   height: 32px;
   -webkit-transition: all .25s ease-out;
