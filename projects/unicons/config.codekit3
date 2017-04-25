@@ -784,6 +784,16 @@
 		"plM": 434328559615,
 		"prP": 0
 		},
+	"\/assets\/svg\/unicons-basic-16px-circle-exclamation-mark-filled.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/svg-optimized\/unicons-basic-16px-circle-exclamation-mark-filled.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
 	"\/assets\/svg\/unicons-basic-16px-circle-exclamation-mark.svg": {
 		"ft": 2097152,
 		"miP": 1,
@@ -1224,6 +1234,16 @@
 		"plM": 434328559615,
 		"prP": 0
 		},
+	"\/assets\/svg\/unicons-basic-24px-circle-exclamation-mark-filled.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/svg-optimized\/unicons-basic-24px-circle-exclamation-mark-filled.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
 	"\/assets\/svg\/unicons-basic-24px-circle-exclamation-mark.svg": {
 		"ft": 2097152,
 		"miP": 1,
@@ -1663,6 +1683,16 @@
 		"opt": 0,
 		"plM": 434328559615,
 		"prP": 0
+		},
+	"\/assets\/svg\/unicons-basic-48px-circle-exclamation-mark-filled.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/svg-optimized\/unicons-basic-48px-circle-exclamation-mark-filled.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
 		},
 	"\/assets\/svg\/unicons-basic-48px-circle-exclamation-mark.svg": {
 		"ft": 2097152,
