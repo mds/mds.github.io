@@ -8234,6 +8234,626 @@
 		"plM": 434328559615,
 		"prP": 1
 		},
+	"\/assets\/svg\/legacy icons\/icon-automobile.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-automobile.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-ban.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-ban.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-bar-chart.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-bar-chart.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-bulb.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-bulb.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-calendar.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-calendar.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-caret-down.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-caret-down.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-caret-left.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-caret-left.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-caret-right.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-caret-right.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-caret-up.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-caret-up.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-caution.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-caution.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-chart-bar 2.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-chart-bar 2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-chat.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-chat.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-circle-check.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-circle-check.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-circle.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-circle.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-clipboard.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-clipboard.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-desk-phone.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-desk-phone.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-document.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-document.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-download.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-download.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-email-alt.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-email-alt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-email.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-email.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-external-link.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-external-link.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-factory.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-factory.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-feedback.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-feedback.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-filter.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-filter.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-global.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-global.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-graph-chart.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-graph-chart.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-home.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-home.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-legal.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-legal.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-link.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-link.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-lock.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-lock.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-menu.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-menu.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-mobile.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-mobile.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-more.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-more.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-news.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-news.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-oil-bottle.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-oil-bottle.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-pause.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-pause.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-phone.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-phone.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-pie-chart.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-pie-chart.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-play.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-play.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-plus.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-plus.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-power-cord.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-power-cord.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-print.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-print.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-profile.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-profile.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-question-mark.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-question-mark.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-quote.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-quote.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-search.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-search.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-settings.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-settings.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-share.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-share.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-snowflake.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-snowflake.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-square.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-square.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-sun.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-sun.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-support.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-support.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-trash.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-trash.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-travel.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-travel.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-triangle-down.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-triangle-down.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-triangle-up.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-triangle-up.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-truck.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-truck.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-unlock.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-unlock.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-upload.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-upload.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-user.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-user.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-warning.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-warning.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/legacy icons\/icon-x.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/legacy icons\/svg-optimized\/icon-x.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
 	"\/components.html": {
 		"ft": 8192,
 		"oA": 2,
