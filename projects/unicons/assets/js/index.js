@@ -23,7 +23,6 @@ function replaceIcons(size){
 
     $this.attr('xlink:href',$this.attr('xlink:href').replace('16', size));
     $this.attr('xlink:href',$this.attr('xlink:href').replace('24', size));
-    //$this.attr('xlink:href',$this.attr('xlink:href').replace('32', size));
     $this.attr('xlink:href',$this.attr('xlink:href').replace('48', size));
 
   });
@@ -56,6 +55,7 @@ $("#btn-medium").on("click", function() {
 $("#btn-large").on("click", function() {
 
   // Change img src to correct size
+  // We're using 24 for 32 and scaling with code, FTW!
   replaceIcons(24);
 
   // Change to the proper size
