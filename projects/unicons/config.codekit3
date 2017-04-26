@@ -2854,11 +2854,11 @@
 		"plM": 434328559615,
 		"prP": 0
 		},
-	"\/assets\/svg\/16px\/triangle-filled.svg": {
+	"\/assets\/svg\/16px\/triangle-down-filled.svg": {
 		"ft": 2097152,
 		"miP": 1,
 		"oA": 1,
-		"oAP": "\/assets\/svg\/16px\/svg-optimized\/triangle-filled.svg",
+		"oAP": "\/assets\/svg\/16px\/svg-optimized\/triangle-down-filled.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 434328559615,
@@ -2869,6 +2869,16 @@
 		"miP": 1,
 		"oA": 1,
 		"oAP": "\/assets\/svg\/16px\/svg-optimized\/triangle-line.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/16px\/triangle-up-filled.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/16px\/svg-optimized\/triangle-up-filled.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 434328559615,
@@ -5414,11 +5424,11 @@
 		"plM": 434328559615,
 		"prP": 0
 		},
-	"\/assets\/svg\/24px\/triangle-filled.svg": {
+	"\/assets\/svg\/24px\/triangle-down-filled.svg": {
 		"ft": 2097152,
 		"miP": 1,
 		"oA": 1,
-		"oAP": "\/assets\/svg\/24px\/svg-optimized\/triangle-filled.svg",
+		"oAP": "\/assets\/svg\/24px\/svg-optimized\/triangle-down-filled.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 434328559615,
@@ -5429,6 +5439,16 @@
 		"miP": 1,
 		"oA": 1,
 		"oAP": "\/assets\/svg\/24px\/svg-optimized\/triangle-line.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/24px\/triangle-up-filled.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/24px\/svg-optimized\/triangle-up-filled.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 434328559615,
@@ -7974,11 +7994,11 @@
 		"plM": 434328559615,
 		"prP": 0
 		},
-	"\/assets\/svg\/48px\/triangle-filled.svg": {
+	"\/assets\/svg\/48px\/triangle-down-filled.svg": {
 		"ft": 2097152,
 		"miP": 1,
 		"oA": 1,
-		"oAP": "\/assets\/svg\/48px\/svg-optimized\/triangle-filled.svg",
+		"oAP": "\/assets\/svg\/48px\/svg-optimized\/triangle-down-filled.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 434328559615,
@@ -7989,6 +8009,16 @@
 		"miP": 1,
 		"oA": 1,
 		"oAP": "\/assets\/svg\/48px\/svg-optimized\/triangle-line.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 434328559615,
+		"prP": 1
+		},
+	"\/assets\/svg\/48px\/triangle-up-filled.svg": {
+		"ft": 2097152,
+		"miP": 1,
+		"oA": 1,
+		"oAP": "\/assets\/svg\/48px\/svg-optimized\/triangle-up-filled.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 434328559615,
