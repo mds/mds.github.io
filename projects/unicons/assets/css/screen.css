@@ -309,15 +309,6 @@ button.active {
   font-size: .675rem;
   color: #d82424; }
 
-.group-12 li img,
-.group-12 li svg {
-  width: 12px;
-  height: 12px;
-  -webkit-transition: all .25s ease-out;
-  -moz-transition: all .25s ease-out;
-  -o-transition: all .25s ease-out;
-  transition: all .25s ease-out; }
-
 .group-16 li img,
 .group-16 li svg {
   width: 16px;
@@ -348,6 +339,16 @@ button.active {
 
 .group-48 li img,
 .group-48 li svg {
+  width: 48px;
+  height: 48px;
+  -webkit-transition: all .25s ease-out;
+  -moz-transition: all .25s ease-out;
+  -o-transition: all .25s ease-out;
+  transition: all .25s ease-out; }
+
+.group-48-alt li img,
+.group-48-alt li svg {
+  stroke-width: 2;
   width: 48px;
   height: 48px;
   -webkit-transition: all .25s ease-out;

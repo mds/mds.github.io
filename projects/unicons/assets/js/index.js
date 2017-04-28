@@ -74,3 +74,14 @@ $("#btn-xlarge").on("click", function() {
   $("ul").removeClass().addClass("group-48");
 
 });
+
+// Changes icon size to 48px alternate with 2px stroke
+$("#btn-xlarge-alt").on("click", function() {
+
+  // Change img src to correct size
+  replaceIcons(48);
+
+  // Change to the proper size
+  $("ul").removeClass().addClass("group-48-alt");
+
+});
