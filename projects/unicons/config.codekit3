@@ -524,6 +524,15 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/assets\/js\/svg4everybody.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/svg4everybody.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/assets\/svg\/16px\/accessibility.svg": {
 		"ft": 2097152,
 		"miP": 1,

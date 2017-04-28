@@ -1,3 +1,5 @@
+// Run this script to make SVG show up in ie11
+svg4everybody();
 
 // Count the icons in each group and append size to h2 span
 $('.group-count').each(function(){
