@@ -1,1 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><title>check</title><path d="M42.971,10.222,17.414,35.778a2,2,0,0,1-2.828,0L5.029,26.222" fill="none" stroke="#5a5b5e" stroke-linecap="square" stroke-linejoin="round"/></svg>
+<svg id="target" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><title>check</title><path d="M42.971,10.222,17.414,35.778a2,2,0,0,1-2.828,0L5.029,26.222" fill="none" stroke="currentColor" stroke-linecap="square" stroke-linejoin="round"/></svg>

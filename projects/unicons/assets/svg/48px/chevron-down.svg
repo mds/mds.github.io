@@ -1,1 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><title>chevron-down</title><path d="M40.5,18.243,26.121,32.621a3,3,0,0,1-4.243,0L7.5,18.243" fill="none" stroke="#5a5b5e" stroke-linecap="square" stroke-linejoin="round"/></svg>
+<svg id="target" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><title>chevron-down</title><path d="M40.5,18.243,26.121,32.621a3,3,0,0,1-4.243,0L7.5,18.243" fill="none" stroke="currentColor" stroke-linecap="square" stroke-linejoin="round"/></svg>

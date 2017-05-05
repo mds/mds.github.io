@@ -1,1 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>caret-right</title><path d="M7,18.283V5.013a1,1,0,0,1,1.565-.825l9.7,6.635a1,1,0,0,1,0,1.651l-9.7,6.635A1,1,0,0,1,7,18.283Z" fill="#5a5b5e"/></svg>
+<svg id="target" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>caret-right</title><path d="M7,18.283V5.013a1,1,0,0,1,1.565-.825l9.7,6.635a1,1,0,0,1,0,1.651l-9.7,6.635A1,1,0,0,1,7,18.283Z" fill="currentColor"/></svg>
