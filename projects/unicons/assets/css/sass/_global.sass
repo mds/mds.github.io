@@ -12,8 +12,8 @@
 
 body
   font-size: 16px
-  background-color: white
-  color: $color-dark
+  background-color: $color-bg
+  color: $color-text
 
 .main
   width: 100%
@@ -34,8 +34,8 @@ ul
   display: flex
   flex-wrap: wrap
   margin-bottom: 4rem
-  border-top: 1px solid $color-light-grey
-  border-bottom: 1px solid $color-light-grey
+  border-top: 1px solid $color-border
+  border-bottom: 1px solid $color-border
 
 li
   flex: 1 0 50%
@@ -44,9 +44,9 @@ li
   align-items: center
   padding: 1.5rem 0
   margin: 0 0 -1px 0
-  border-bottom: 1px solid $color-light-grey
+  border-bottom: 1px solid $color-border
   flex-grow: 0
-  color: $color-medium-grey // this sets the icon color
+  color: $color-white // this sets the icon color
 
   +small
     padding: 1.5rem
@@ -55,17 +55,20 @@ li
   +medium
     flex: 0 0 25%
 
+  svg
+    color: $color-icons
+
 .top
   display: flex
   flex-wrap: wrap
   justify-content: space-between
-  border-bottom: 2px solid $color-light-grey
+  border-bottom: 2px solid $color-border
   padding: 1rem
   position: fixed
   top: 0
   left: 0
   width: 100%
-  background-color: rgba($color-white, .9)
+  background-color: rgba($color-bg, .9)
 
   +medium
     left: 50%
@@ -108,7 +111,7 @@ h3
   text-align: left
   line-height: 1.35em
   margin-left: 1rem
-  color: $color-dark
+  color: $color-text
   +font-regular
 
   +small
@@ -129,10 +132,10 @@ p
   +font-regular
 
 a 
-  color: $color-dark
+  color: $color-text
 
 hr
   border: none
-  border-bottom: 2px solid $color-light-grey
+  border-bottom: 2px solid $color-border
   margin: 7rem 0 2rem
 
